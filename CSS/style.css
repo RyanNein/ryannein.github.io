@@ -1,10 +1,11 @@
+
 body { 
     background-color: white;
     color: black;
     margin: 0;
     padding: 0;
-    /* font-family: Arial, Helvetica, sans-serif;*/
-    font-family: 'Roboto', sans-serif;
+    font-family: "brother-1816", sans-serif;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -37,6 +38,7 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
+
 #logo {
     width: 50%;
     max-width: 440px;
@@ -65,14 +67,17 @@ nav ul li a {
 .section-header {
     font-size: 3rem;
     font-weight: 800;
+    font-weight: 900;
     font-style: italic;
-    margin: 80px 0 20px 0;
+    margin: 80px 0 32px 0;
+    text-transform: uppercase;
 }
 
 .design-thumbnail-image {
      width: 820px;
      margin: auto;
      border-radius: 22px;
+     box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
 }
 
 .game-thumbnail-image {
@@ -86,6 +91,7 @@ nav ul li a {
     margin: auto;
     border-radius: 22px;
     width: 820px;
+    box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
 }
 
 .projects {
@@ -100,4 +106,21 @@ nav ul li a {
     /* align-items: center; */
     /* align-content: center; */ 
     gap: 20px;
+}
+
+.music-thumbnail-image {
+    width: 260px;
+    border-radius: 22px;
+    box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
+}
+
+.wip-thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wip-thumbnail-image {
+    width: 1660px;
+    border-radius: 22px;
+    box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
 }
