@@ -1,0 +1,103 @@
+body { 
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    color: black;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#logo {
+    width: 50%;
+    max-width: 440px;
+    height: auto;
+    margin: auto;
+}
+
+#sub-nav {
+    color: #333;
+    text-decoration: none;
+    margin:  0 0 10px 0;
+}
+
+#sub-nav a {
+    text-decoration: none;
+}
+
+#sub-nav span {
+    margin: 0 5px;
+}
+
+#links a img {
+    width: 40px;
+}
+
+.section-header {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    margin: 80px 0 20px 0;
+}
+
+.design-thumbnail-image {
+     width: 820px;
+     margin: auto;
+     border-radius: 22px;
+}
+
+.game-thumbnail-image {
+    
+    margin: auto;
+    border-radius: 22px;
+    width: 540px;
+}
+
+.three-d-thumbnail-image {
+    margin: auto;
+    border-radius: 22px;
+    width: 820px;
+}
+
+.projects {
+    width: 1660px;
+    margin: auto;
+}
+
+.design-thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /* align-items: center; */
+    /* align-content: center; */ 
+    gap: 20px;
+}
