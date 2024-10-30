@@ -1,4 +1,4 @@
-// alert("T");
+	// alert("T");
 // prompt("Hello");
 
 // console.log("Hello World");
@@ -17,8 +17,6 @@ let h = document.querySelector("h2");
 // console.log(h.classList);
 // h.classList.add("testClass");
 
-let myArray = [1, 50, 60];
-console.log(myArray["50"]);
 
 
 
@@ -51,6 +49,11 @@ console.log(myArray["50"]);
 // console.log(deepEquals("Five", "Five"));
 // console.log(deepEquals({ x: 1, y: 2 }, { x: 1, y: 4 }));
 // console.log(deepEquals({ x: 1, y: 2, z: 5 }, { x: 1, y: 2 }));
+
+console.log(flatten( [
+	[1, 2, 3],
+	[10, 11, 12]
+	] ));
 
 function loopingATriangle01() {
 	for (let i = 0; i < 7; i++) {
@@ -258,4 +261,18 @@ function deepEquals(a, b) {
 	}
 
 	return true;
+}
+
+function flatten(twoDArray) {
+	/*
+	return twoDArray.reduce( (accumulator, currentValue) => {
+		return accumulator.concat(currentValue);
+	}, [] )
+	*/
+	let array = [];
+	twoDArray.forEach(element => {
+		array = array.concat(element);
+	});
+
+	return array;
 }
