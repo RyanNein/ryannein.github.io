@@ -1,4 +1,9 @@
 
+h1 img {
+    width: 100%;
+    padding-top: 100px;
+}
+
 
 .work-image-div {
     margin: 0 auto;
@@ -7,4 +12,10 @@
 .work-image-div img {
     width: 100%;
     height: auto;
+}
+
+.youtube-video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
 }

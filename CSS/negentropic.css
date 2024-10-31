@@ -1,4 +1,9 @@
 
 body {
+    background-image: url(../Media/NegEntropicWandering/neg_tile.png);
+}
+
+main {
     font-family: "DotGothic16", sans-serif;
+    color: white;
 }

@@ -6,6 +6,8 @@ const toggleButton = document.querySelector("#dark-mode-toggle-button");
 const subNav = document.querySelector("#sub-nav");
 const logoImg = document.querySelector("#logo");
 const linkTreeImg = document.querySelector("#links a img");
+const thumbnailTitles = document.querySelectorAll(".title");
+
 
 toggleButton.addEventListener("click", () => {
     if (!isDarkMode) {
@@ -30,6 +32,9 @@ function enableDarkMode() {
     logoImg.src = "Media/Homepage/logo_white.png";
     linkTreeImg.src = "Media/Homepage/linktree_logo_white.png";
 
+    for (let title of thumbnailTitles) 
+        title.style.color = "white";
+
     localStorage.setItem("isDarkMode", "true");
     isDarkMode = true;
 }
@@ -40,6 +45,9 @@ function disableDarkMode() {
 
     logoImg.src = "Media/Homepage/logo_black.png"
     linkTreeImg.src = "Media/Homepage/linktree_logo_black.png";
+
+    for (let title of thumbnailTitles) 
+        title.style.color = "black";
 
     localStorage.setItem("isDarkMode", null);
     isDarkMode = false;

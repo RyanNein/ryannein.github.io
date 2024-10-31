@@ -4,14 +4,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pico Pals</title>
 
+    <!-- Concert One Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- brother font -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
     <link rel="stylesheet" href="../CSS/pico_pals.css">
 </head>
 <body>
-    <h1>Pico Pals</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Ryan Nein</a></li>
+            <li><a href="../Pages/contact.html">Contact</a></li>
+            <li><a href="../Pages/resume.html">Resume</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        
+        <h1>
+            <img src="../Media/PicoPals/pico_pals_logo.png" alt="Pico Pals Logo">
+        </h1>
+        
+        <p>
+            Collect, level up, and battle Pico Pals as you earn star badges to progress through your monster training adventure.
+        </p>
+
+        <!-- Devlog -->
+         <h3>Devlog</h3>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/b1xV4sxu43c?si=H-y3OhynE-ummNx-" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; 
+            autoplay; 
+            clipboard-write; 
+            encrypted-media; 
+            gyroscope; 
+            picture-in-picture; 
+            web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+            class="youtube-video"
+        >
+        </iframe>
+
+
+        <h3>Screenshots</h3>
+        <img src="../Media/PicoPals/pico_pals_screenshot_01.png" alt="Pico Pals Screenshot">
+        <img src="../Media/PicoPals/pico_pals_screenshot_02.png" alt="Pico Pals Screenshot">
+        <img src="../Media/PicoPals/pico_pals_screenshot_03.png" alt="Pico Pals Screenshot">
+        <img src="../Media/PicoPals/pico_pals_screenshot_04.png" alt="Pico Pals Screenshot">
+        <img src="../Media/PicoPals/pico_pals_screenshot_05.png" alt="Pico Pals Screenshot">
+    </main>
+
+    <!-- Pico Pals -->
+    <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-01">
+    <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-02">
+    <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-03">
+    <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-04">
+    <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-05">
+
+    <audio src="../Audio/sfx_dino_cry.wav" id="pico-pal-sound"></audio>
+
+    <button id="scroll-button">Top</button>
+
+    <script src="../JS/scroll.js"></script>
+    <script src="../JS/picoPals.js"></script>
 </body>
 </html>
