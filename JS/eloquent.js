@@ -35,7 +35,7 @@ let h = document.querySelector("h2");
 
 // console.log(sum(range(1 , 10, 2)));
 
-// console.log(reverseArray([1,2,3,4,5]));
+// console.log(reverseArray([1,2,3,4,5]));  
 // console.log(reverseArrayInPlace([1,2,3,4,5]));
 
 // const list = arrayToList([0,1,2,3,4,5]);
@@ -50,10 +50,10 @@ let h = document.querySelector("h2");
 // console.log(deepEquals({ x: 1, y: 2 }, { x: 1, y: 4 }));
 // console.log(deepEquals({ x: 1, y: 2, z: 5 }, { x: 1, y: 2 }));
 
-console.log(flatten( [
-	[1, 2, 3],
-	[10, 11, 12]
-	] ));
+// console.log(flatten( [
+// 	[1, 2, 3],
+// 	[10, 11, 12]
+// 	] ));
 
 function loopingATriangle01() {
 	for (let i = 0; i < 7; i++) {
