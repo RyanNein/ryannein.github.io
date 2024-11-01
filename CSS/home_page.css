@@ -37,17 +37,38 @@ header div {
 
 nav {
     background-color: black;
-    padding: 10px;
     width: 100%;
     position: fixed;
     z-index: 1000;
+    box-sizing: border-box;
+}
+
+#nav-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-content div {
+    display: flex;
+}
+
+#dark-mode-toggle-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#dark-mode-toggle-button:hover{
+    opacity: 0.5;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     gap: 15px;
 }
 
@@ -55,6 +76,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+}    
+
+nav ul li a:hover {
+    opacity: 0.5;
 }    
 
 main {
@@ -127,6 +152,8 @@ main {
 /* Scroll */
 #scroll-button {
     /* display: none; */
+    width: 64px;
+    height: 64px;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -137,7 +164,12 @@ main {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 32px;
+}
+
+#scroll-button img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -165,7 +197,7 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;
+    /* display: flex; */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     width: 100%;
@@ -184,14 +216,18 @@ main {
 /* -- Graphic Design -- */
 
 .design-thumbnail-container {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     gap: 20px;
-    justify-content: center;
+    /* justify-content: center; */
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }    
 
 .design-thumbnail-container div {
-    flex: 1 1 45%;
+    /* flex: 1 1 45%; */
     display: flex;
     justify-content: center;
 }    

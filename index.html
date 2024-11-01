@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Ryan Nein portfolio">
-
     <title>Ryan Nein</title>
+
+    <meta name="description" content="Ryan Nein portfolio">
+    <meta name="keywords" content="graphic design, portfolio, ryan nein, game development, 3d, illustration">
 
     <!-- main style -->
     <link rel="stylesheet" href="CSS/home_page.css">
@@ -17,15 +18,22 @@
 <body>
      
     <nav>
-        <ul>
-            <li><a href="index.html">Ryan Nein</a></li>
-            <li><a href="Pages/contact.html">Contact</a></li>
-            <li><a href="Pages/resume.html">Resume</a></li>
-        </ul>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="index.html">Ryan Nein</a></li>
+                    <li><a href="Pages/contact.html">Contact</a></li>
+                    <li><a href="Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
 
-        <button id="dark-mode-toggle-button">
-            Dark Mode
-        </button>
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+
     </nav>
     
     <header>
@@ -67,6 +75,13 @@
                     <a href="Pages/ticketmanager.html">
                         <img src="Media/Homepage/thumbnail_ticketmanager.png" alt="TicketManager" class="design-thumbnail-image portfolio-img">
                         <div class="title">TicketManager</div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <a href="Pages/movie_posters.html">
+                        <img src="Media/Homepage/thumbnail_movie_posters.png" alt="Movie posters" class="design-thumbnail-image portfolio-img">
+                        <div class="title">Movie Posters</div>
                     </a>
                 </div>
                 
@@ -236,7 +251,9 @@
 
     </main>
     
-    <button id="scroll-button">Top</button>
+    <button id="scroll-button">
+        <img src="Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
 
     <script src="JS/eloquent.js"></script>
     <script src="JS/darkMode.js"></script>

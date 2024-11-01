@@ -1,8 +1,8 @@
 
-
 let isDarkMode = localStorage.getItem("isDarkMode") === "true";
-const toggleButton = document.querySelector("#dark-mode-toggle-button");
 
+const toggleButton = document.querySelector("#dark-mode-toggle-button");
+const buttonImage = toggleButton.querySelector("img");
 const subNav = document.querySelector("#sub-nav");
 const logoImg = document.querySelector("#logo");
 const linkTreeImg = document.querySelector("#links a img");
@@ -32,6 +32,8 @@ function enableDarkMode() {
     logoImg.src = "Media/Homepage/logo_white.png";
     linkTreeImg.src = "Media/Homepage/linktree_logo_white.png";
 
+    buttonImage.src = "Media/Homepage/icon_sun.png";
+
     for (let title of thumbnailTitles) 
         title.style.color = "white";
 
@@ -45,6 +47,8 @@ function disableDarkMode() {
 
     logoImg.src = "Media/Homepage/logo_black.png"
     linkTreeImg.src = "Media/Homepage/linktree_logo_black.png";
+
+    buttonImage.src = "Media/Homepage/icon_moon.png";
 
     for (let title of thumbnailTitles) 
         title.style.color = "black";
