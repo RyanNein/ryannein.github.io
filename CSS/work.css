@@ -10,7 +10,7 @@ p {
     line-height: 1.3em;
     /* font-size: 20px; */
     max-width: 1380px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 
 .paragraph-h {
@@ -18,16 +18,16 @@ p {
     /* font-size: 30px; */
 }
 
-.work-image-div {
+.seamless-work-item {
     margin: 0 auto;
 }
 
-.work-image-div img {
+.seamless-work-item img {
     width: 100%;
     height: auto;
 }
 
-.work-image-div-margin img {
+.work-item-margin img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -48,6 +48,7 @@ video {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
+    margin-bottom: 20px;
 }
 
 .screenshot-container img {
@@ -66,7 +67,9 @@ video {
 }
 
 #lightbox img {
-    width: 100%;
+    /* width: 100%; */
+    /* width: 1660px; */
+    min-width: 80%;
 }
 
 .lightbox-close {
