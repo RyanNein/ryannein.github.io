@@ -19,11 +19,21 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="../index.html">Ryan Nein</a></li>
-            <li><a href="../Pages/contact.html">Contact</a></li>
-            <li><a href="../Pages/resume.html">Resume</a></li>
-        </ul>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
     </nav>
 
 
@@ -38,34 +48,53 @@
         </p>
 
         <!-- Devlog -->
-         <h3>Devlog</h3>
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/b1xV4sxu43c?si=H-y3OhynE-ummNx-" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; 
-            autoplay; 
-            clipboard-write; 
-            encrypted-media; 
-            gyroscope; 
-            picture-in-picture; 
-            web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen
-            class="youtube-video"
-        >
-        </iframe>
+        <section>
+            <h3>Devlog</h3>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/b1xV4sxu43c?si=H-y3OhynE-ummNx-" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; 
+                autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
+                class="youtube-video">
+            </iframe>
+        </section>
+        
+        <section>
+            <h3>Screenshots</h3>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/PicoPals/pico_pals_screenshot_01.png" alt="Pico Pals Screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/PicoPals/pico_pals_screenshot_02.png" alt="Pico Pals Screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/PicoPals/pico_pals_screenshot_03.png" alt="Pico Pals Screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/PicoPals/pico_pals_screenshot_04.png" alt="Pico Pals Screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/PicoPals/pico_pals_screenshot_05.png" alt="Pico Pals Screenshot">
+            </div>
+        </section>
 
-
-        <h3>Screenshots</h3>
-        <img src="../Media/PicoPals/pico_pals_screenshot_01.png" alt="Pico Pals Screenshot">
-        <img src="../Media/PicoPals/pico_pals_screenshot_02.png" alt="Pico Pals Screenshot">
-        <img src="../Media/PicoPals/pico_pals_screenshot_03.png" alt="Pico Pals Screenshot">
-        <img src="../Media/PicoPals/pico_pals_screenshot_04.png" alt="Pico Pals Screenshot">
-        <img src="../Media/PicoPals/pico_pals_screenshot_05.png" alt="Pico Pals Screenshot">
     </main>
+
+    <!-- lightbox -->
+    <div id="lightbox">
+        <img src="" alt="Lightbox image" id="lightbox-image">
+    </div>
+
 
     <!-- Pico Pals -->
     <img src="../Media/PicoPals/spr_pal_beetle.png" alt="Pico Pal" class="pico-pal" id="pico-pal-01">
@@ -76,9 +105,17 @@
 
     <audio src="../Audio/sfx_dino_cry.wav" id="pico-pal-sound"></audio>
 
-    <button id="scroll-button">Top</button>
 
+    <!-- Scroll Up Button -->
+	<button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+
+    <script src="../JS/darkMode.js"></script>
     <script src="../JS/scroll.js"></script>
+    <script src="../JS/lightbox.js"></script>
     <script src="../JS/picoPals.js"></script>
+
 </body>
 </html>

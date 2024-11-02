@@ -2,7 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>(Neg)Entropic Wandering</title>
+    <meta name="description" content="(Neg)Entropic Wandering a visual novel video game">
 
     <!-- brother font -->
     <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
@@ -19,11 +21,21 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="../index.html">Ryan Nein</a></li>
-            <li><a href="../Pages/contact.html">Contact</a></li>
-            <li><a href="../Pages/resume.html">Resume</a></li>
-        </ul>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
     </nav>
 
     <main>
@@ -47,45 +59,70 @@
             View the code.
         </p>
 
-        <h3>Trailer</h3>
+        <section>
+            <h3>Trailer</h3>
+            <iframe 
+                width="1080" 
+                height="720" 
+                src="https://www.youtube.com/embed/jh4JRwEXjfk?si=NUACT9_A6SfVcFwk" 
+                frameborder="0" 
+                allow=" autoplay; picture-in-picture" 
+                allowfullscreen 
+                sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
+                class="youtube-video">
+            </iframe>
+        </section>
     
-        <iframe 
-            width="1080" 
-            height="720" 
-            src="https://www.youtube.com/embed/jh4JRwEXjfk?si=NUACT9_A6SfVcFwk" 
-            frameborder="0" 
-            allow=" autoplay; picture-in-picture" 
-            allowfullscreen 
-            sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
-            class="youtube-video"
-        >
-        </iframe>
-    
-        <h3>Original Soundtrack</h3>
-    
-        <iframe 
-            width="1280" 
-            height="720" 
-            src="https://www.youtube.com/embed/rLpArwmE__A?si=PNygYxXHPfPBCLpx" 
-            frameborder="0" 
-            allow=" autoplay; picture-in-picture" 
-            allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
-            class="youtube-video"
-        >
-        </iframe>
+        <section>
+            <h3>Original Soundtrack</h3>
+            <iframe 
+                width="1280" 
+                height="720" 
+                src="https://www.youtube.com/embed/rLpArwmE__A?si=PNygYxXHPfPBCLpx" 
+                frameborder="0" 
+                allow=" autoplay; picture-in-picture" 
+                allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
+                class="youtube-video">
+            </iframe>
+        </section>
         
-        <h3>Screenshots</h3>
-    
-        <img src="../Media/NegEntropicWandering/neg_screenshot_01.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
-        <img src="../Media/NegEntropicWandering/neg_screenshot_02.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
-        <img src="../Media/NegEntropicWandering/neg_screenshot_03.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
-        <img src="../Media/NegEntropicWandering/neg_screenshot_04.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
-        <img src="../Media/NegEntropicWandering/neg_screenshot_05.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+        <section>
+            <h3>Screenshots</h3>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/NegEntropicWandering/neg_screenshot_01.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+            </div>
+
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/NegEntropicWandering/neg_screenshot_02.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+            </div>
+
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/NegEntropicWandering/neg_screenshot_03.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+            </div>
+
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/NegEntropicWandering/neg_screenshot_04.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+            </div>
+
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/NegEntropicWandering/neg_screenshot_05.png" alt="(Neg)Entropic Wandering screenshot" width="1660">
+            </div>
+        </section>
+        
     </main>
 
-    <button id="scroll-button">Top</button>
+        <!-- lightbox -->
+        <div id="lightbox">
+            <img src="" alt="Lightbox image" id="lightbox-image">
+        </div>
 
-    <script src="../JS/scroll.js"></script>
-    <script src="../JS/picoPals.js"></script>
+	<!-- Scroll Up Button -->
+	<button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+	<script src="../JS/darkMode.js"></script>
+	<script src="../JS/scroll.js"></script>
+	<script src="../JS/lightbox.js"></script>
 </body>
 </html>

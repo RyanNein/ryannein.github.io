@@ -2,45 +2,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Whale Well</title>
+    <meta name="description" content="Whale Well short adventure game">
 
+    <!-- Concert One Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    
+    <!-- brother font -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
 
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
     <link rel="stylesheet" href="../CSS/whale_well.css">
 </head>
 <body>
-    <h2>Trailer</h2>
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
 
-    <iframe 
-        width="1280" 
-        height="720" 
-        src="https://www.youtube.com/embed/s1BoiLx20GI?si=nPmMC8-gmxVERw8u" frameborder="0" 
-        allow=" autoplay; picture-in-picture" 
-        allowfullscreen 
-        sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups">
-    </iframe>
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
 
-    <h2>Original Soundtrack</h2>
+    <main>
+        <section>
+            <h2>Trailer</h2>
+            <iframe 
+                width="1280" 
+                height="720" 
+                src="https://www.youtube.com/embed/s1BoiLx20GI?si=nPmMC8-gmxVERw8u" frameborder="0" 
+                allow=" autoplay; picture-in-picture" 
+                allowfullscreen 
+                sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
+                class="youtube-video">
+            </iframe>
+        </section>
 
-    <iframe 
-        width="1280" 
-        height="720" 
-        src="https://www.youtube.com/embed/fRcQyD8w1oM?si=rbBnlQy6lCBl8Z-A" frameborder="0" 
-        allow=" autoplay; picture-in-picture" 
-        allowfullscreen 
-        sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups">
-    </iframe>
+        <section>
+            <h2>Original Soundtrack</h2>
+            <iframe 
+                width="1280" 
+                height="720" 
+                src="https://www.youtube.com/embed/fRcQyD8w1oM?si=rbBnlQy6lCBl8Z-A" frameborder="0" 
+                allow=" autoplay; picture-in-picture" 
+                allowfullscreen 
+                sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms allow-popups"
+                class="youtube-video">
+            </iframe>
+        </section>
 
-    <h2>Screenshots</h2>
+        <section>
+            <h2>Screenshots</h2>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/WhaleWell/whale_well_screenshot_01.png" alt="Whale Well screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/WhaleWell/whale_well_screenshot_02.png" alt="Whale Well screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/WhaleWell/whale_well_screenshot_03.png" alt="Whale Well screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/WhaleWell/whale_well_screenshot_04.png" alt="Whale Well screenshot">
+            </div>
+            <div class="screenshot-container lightbox-item">
+                <img src="../Media/WhaleWell/whale_well_screenshot_05.png" alt="Whale Well screenshot">
+            </div>
+        </section>
+    </main>
+    <!-- lightbox -->
+    <div id="lightbox">
+        <img src="" alt="Lightbox image" id="lightbox-image">
+    </div>
 
-    <img src="../Media/WhaleWell/whale_well_screenshot_01.png" alt="Whale Well screenshot">
-    <img src="../Media/WhaleWell/whale_well_screenshot_02.png" alt="Whale Well screenshot">
-    <img src="../Media/WhaleWell/whale_well_screenshot_03.png" alt="Whale Well screenshot">
-    <img src="../Media/WhaleWell/whale_well_screenshot_04.png" alt="Whale Well screenshot">
-    <img src="../Media/WhaleWell/whale_well_screenshot_05.png" alt="Whale Well screenshot">
+    <!-- Scroll Up Button -->
+    <button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
 
+    <script src="../JS/darkMode.js"></script>
+    <script src="../JS/scroll.js"></script>
+    <script src="../JS/lightbox.js"></script>
 </body>
 </html>

@@ -2,17 +2,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Hand Painted Weapons</title>
+    <meta name="description" content="3D hand painted weapon assets">
+
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
+
+    <!-- brother -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
 </head>
 <body>
-    <iframe 
-        frameborder="0" 
-        allowfullscreen mozallowfullscreen="true" 
-        webkitallowfullscreen="true" 
-        allow="autoplay; xr-spatial-tracking" 
-        width="1920" 
-        height="1080" 
-        src="https://sketchfab.com/models/875814c5964a4aa7b27cf8288dd38011/embed">
-    </iframe>
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="spacer"></div>
+
+    <main>
+        <p class="paragraph-h">
+            Hand-Painted 3D Game Assets
+        </p>
+
+        <p>
+            Hard surface modeling done in Maya. <br>
+            Textured in Substance Painter.
+        </p>
+
+        <iframe 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" 
+            webkitallowfullscreen="true" 
+            allow="autoplay; xr-spatial-tracking" 
+            width="1920" 
+            height="1080" 
+            src="https://sketchfab.com/models/875814c5964a4aa7b27cf8288dd38011/embed"
+            class="three-d-viewer">
+        </iframe>
+
+        <img src="../Media/HandPaintedWeapons/shield.png" alt="Shield">
+        <img src="../Media/HandPaintedWeapons/sword.png" alt="Sword">
+        <img src="../Media/HandPaintedWeapons/axe.png" alt="Axe">
+
+    </main>
+
+    <button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+    <script src="../JS/darkMode.js"></script>
+    <script src="../JS/scroll.js"></script>
+
 </body>
 </html>

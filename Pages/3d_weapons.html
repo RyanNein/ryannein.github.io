@@ -3,42 +3,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hand Painted Weapons</title>
+    <meta name="description" content="3d modeled game weapons">
+
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
+
+    <!-- brother -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
 </head>
 <body>
-    <iframe 
-        frameborder="0" 
-        allowfullscreen mozallowfullscreen="true" 
-        webkitallowfullscreen="true" 
-        allow="autoplay; xr-spatial-tracking" 
-        width="1920" height="1080" 
-        src="https://sketchfab.com/models/346d794c77c74d51afae580b12602d58/embed?ui_theme=dark"></iframe>
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
 
-    <iframe 
-        frameborder="0" 
-        allowfullscreen mozallowfullscreen="true" 
-        webkitallowfullscreen="true" allow="autoplay; xr-spatial-tracking" 
-        width="1920" 
-        height="1080" 
-        src="https://sketchfab.com/models/4f1ebe28e63141b9ba136206fdfb9006/embed?ui_theme=dark"></iframe>
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="spacer"></div>
 
-    <iframe 
-        frameborder="0" 
-        allowfullscreen mozallowfullscreen="true" 
-        webkitallowfullscreen="true" 
-        allow="autoplay; xr-spatial-tracking" 
-        width="1920" 
-        height="1080" 
-        src="https://sketchfab.com/models/b1897c572acd4c75b4b7859394e4b779/embed?ui_theme=dark">
-</iframe>
+    <main>
+        <p class="paragraph-h">
+            Weapon Game Assets
+        </p>
 
-    <iframe 
-        frameborder="0" 
-        allowfullscreen mozallowfullscreen="true" 
-        webkitallowfullscreen="true" 
-        allow="autoplay; xr-spatial-tracking" 
-        width="1920" 
-        height="1080" 
-        src="https://sketchfab.com/models/063cb20627ea40b0915f9d9eeb65c8dd/embed?ui_theme=dark">
-</iframe>
+        <p>
+            Low-poly, baked weapon game assets made in Maya, Substance Painter, and Marmoset Toolbag.
+        </p>
+
+        <!-- Revolver -->
+        <iframe 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" 
+            webkitallowfullscreen="true" 
+            allow="autoplay; xr-spatial-tracking" 
+            width="1920" height="1080" 
+            src="https://sketchfab.com/models/346d794c77c74d51afae580b12602d58/embed?ui_theme=dark"
+            class="three-d-viewer">
+        </iframe>
+
+        <img src="../Media/3DWeapons/revolver.png" alt="Revolver">
+        <img src="../Media/3DWeapons/revolver_tricount.png" alt="Revolver tri-count">
+
+
+        <!-- Knife -->
+        <iframe 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" 
+            webkitallowfullscreen="true" allow="autoplay; xr-spatial-tracking" 
+            width="1920" 
+            height="1080" 
+            src="https://sketchfab.com/models/4f1ebe28e63141b9ba136206fdfb9006/embed?ui_theme=dark"
+            class="three-d-viewer">
+        </iframe>
+
+        <img src="../Media/3DWeapons/knife.png" alt="Knife">
+        <img src="../Media/3DWeapons/knife_tricount.png" alt="Knife tri-count">
+
+
+        <!-- Rifle -->
+        <iframe 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" 
+            webkitallowfullscreen="true" 
+            allow="autoplay; xr-spatial-tracking" 
+            width="1920" 
+            height="1080" 
+            src="https://sketchfab.com/models/b1897c572acd4c75b4b7859394e4b779/embed?ui_theme=dark"
+            class="three-d-viewer">
+        </iframe>
+
+        <img src="../Media/3DWeapons/rifle_01.png" alt="Rifle 01">
+        <img src="../Media/3DWeapons/rifle_02.png" alt="Rifle 02">
+        <img src="../Media/3DWeapons/rifle_tricount.png" alt="Rifle tri-count">
+
+
+        <!-- Shotgun -->
+        <iframe 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" 
+            webkitallowfullscreen="true" 
+            allow="autoplay; xr-spatial-tracking" 
+            width="1920" 
+            height="1080" 
+            src="https://sketchfab.com/models/063cb20627ea40b0915f9d9eeb65c8dd/embed?ui_theme=dark"
+            class="three-d-viewer">
+        </iframe>
+
+        <img src="../Media/3DWeapons/shotgun_01.png" alt="Shotgun 01">
+        <img src="../Media/3DWeapons/shotgun_02.png" alt="Shotgun 02">
+        <img src="../Media/3DWeapons/shotgun_tricount.png" alt="Shotgun tri-count">
+
+    </main>
+
+    <button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+    <script src="../JS/darkMode.js"></script>
+    <script src="../JS/scroll.js"></script>
 </body>
 </html>
