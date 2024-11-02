@@ -33,6 +33,51 @@ p {
     margin-bottom: 20px;
 }
 
+
+/* Flexbox */
+
+.work-flexbox div {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1080px) {
+    .work-flexbox {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 20px;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    
+    .work-flexbox div {
+        display: flex;
+        margin-bottom: 0px;
+        /* flex: 1; */
+    }
+
+    .work-flexbox div img{
+        object-fit:cover;
+        width: 100%;
+    }
+
+    .flex-1 {
+        flex: 1;
+    }
+
+    .flex-2 {
+        flex: 2;
+    }
+}
+
+
+.work-flexbox div img{
+    width: 100%;
+    height: auto;
+}
+
+
+
 .youtube-video {
     width: 100%;
     height: auto;
