@@ -1,4 +1,19 @@
 
+body {
+    background-color: black !important;
+}
+
 main {
     font-family: "Concert One", serif;
+    color: white;
+}
+
+h3 {
+    font-size: 2.4em;
+    margin-top: 60px;
+    letter-spacing: 0.2em;
+}
+
+main a {
+    color: #eacf3d !important;
 }
