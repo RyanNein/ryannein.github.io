@@ -6,11 +6,10 @@ h1 img {
 
 p {
     text-align: left;
-    font-size: 1.2rem;
-    line-height: 1.3em;
-    /* font-size: 20px; */
-    max-width: 1380px;
-    margin: 0 auto 20px auto;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    max-width: 820px;
+    margin: 10px auto 20px auto;
 }
 
 .paragraph-h {
@@ -93,6 +92,10 @@ video {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
+    margin-bottom: 20px;
+}
+
+.screenshot-container {
     margin-bottom: 20px;
 }
 

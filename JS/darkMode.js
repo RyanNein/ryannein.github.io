@@ -4,6 +4,7 @@ let isDarkMode = localStorage.getItem("isDarkMode") === "true";
 // every page:
 const toggleButton = document.querySelector("#dark-mode-toggle-button");
 const buttonImage = toggleButton.querySelector("img");
+const aLinks = document.querySelectorAll("a");
 
 // homepage only:
 const subNav = document.querySelector("#sub-nav");
@@ -31,6 +32,10 @@ else
 function enableDarkMode() {
     document.body.classList.add("dark-mode");
     
+    aLinks.forEach(a => {
+        a.style.color = "#ccc";
+    });
+
     if (window.location.pathname.endsWith("index.html")) {
         subNav.classList.add("sub-nav-dark");
 
@@ -53,6 +58,10 @@ function enableDarkMode() {
 function disableDarkMode() {
     document.body.classList.remove("dark-mode");
     
+    aLinks.forEach(a => {
+        a.style.color = "#333";
+    });
+
     if (window.location.pathname.endsWith("index.html")) {
         subNav.classList.remove("sub-nav-dark");
         
