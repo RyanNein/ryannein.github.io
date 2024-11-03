@@ -36,6 +36,8 @@ function enableDarkMode() {
         a.style.color = "#ccc";
     });
 
+    console.log(window.location.pathname);
+
     if (window.location.pathname.endsWith("index.html")) {
         subNav.classList.add("sub-nav-dark");
 

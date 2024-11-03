@@ -13,3 +13,7 @@ h3 {
     margin-top: 60px;
     letter-spacing: 0.2em;
 }
+
+main a {
+    color: #da6c69 !important;
+}
