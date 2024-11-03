@@ -36,9 +36,7 @@ function enableDarkMode() {
         a.style.color = "#ccc";
     });
 
-    console.log(window.location.pathname);
-
-    if (window.location.pathname.endsWith("index.html")) {
+    if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
         subNav.classList.add("sub-nav-dark");
 
         buttonImage.src = "Media/Homepage/icon_sun.png";
@@ -64,7 +62,7 @@ function disableDarkMode() {
         a.style.color = "#333";
     });
 
-    if (window.location.pathname.endsWith("index.html")) {
+    if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
         subNav.classList.remove("sub-nav-dark");
         
         logoImg.src = "Media/Homepage/logo_black.png"
