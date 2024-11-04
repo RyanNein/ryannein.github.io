@@ -1,18 +1,20 @@
 
 
 ToDo:
-- Illustration Section
-    - self ports
-    - comic
 - Pico pals audio
+
 - Movie Posters Update
 - Design History Ads
 - Think Green
 - Matchboxes
+
 - More 3d consoles
+- add concept art to weapons
+
 - update Pico Pals screenshots
 - update Love M01 Screenshots
-- add concept art to weapons
-- update self portraits
 - add old music
+
+- update self portraits
+
 - make music player or embed
