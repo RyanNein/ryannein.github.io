@@ -4,6 +4,7 @@ ToDo:
 - Illustration Section
     - self ports
     - comic
+- Pico pals audio
 - Movie Posters Update
 - Design History Ads
 - Think Green
@@ -12,3 +13,6 @@ ToDo:
 - update Pico Pals screenshots
 - update Love M01 Screenshots
 - add concept art to weapons
+- update self portraits
+- add old music
+- make music player or embed

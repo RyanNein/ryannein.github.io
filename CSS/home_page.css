@@ -329,6 +329,36 @@ main {
 	} 
 }
 
+
+/* Illustration */
+.illustration-thumbnail-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.illustration-thumbnail-container  div{
+	flex: 1 1 100%;
+	display: flex;
+}
+
+.illustration-thumbnail-image {
+	
+	/* max-width: 100%; */
+	width: 100%;
+	/* height: auto; */
+	height: 100%;
+	border-radius: 22px;
+	box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1080px) {
+	.illustration-thumbnail-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+
 /* -- WIP -- */
 
 .wip-thumbnail-container {
