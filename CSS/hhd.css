@@ -1,4 +1,29 @@
 
-body { 
+body {
+    background-color: white !important;
+    color: #5b2214 !important;
+}
+
+main { 
     font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin-top: 60px;
+    letter-spacing: 0.1em;
+}
+
+main a {
+    color: #da6c69 !important;
+}
+
+.furniture-container {
+    display: flex;
+    justify-content:space-evenly;
+    -ms-flex-align: center;
+    align-items:end;
+    max-width: 70%;
+    margin: 0 auto 60px auto;
+    flex-wrap: wrap;
 }

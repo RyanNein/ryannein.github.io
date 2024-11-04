@@ -1,4 +1,39 @@
 
-body { 
+body {
+    background-color: #ffd0a6 !important;
+}
+
+main { 
     font-family: 'Roboto', sans-serif;
+    color: #38100a;
+}
+
+h3 {
+    font-size: 2.4em;
+    margin-top: 60px;
+    letter-spacing: 0.1em;
+}
+
+main a {
+    color: #ed3b58 !important;
+}
+
+.love-background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+.love-background-container::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../Media/LoveM01/grain_texture.png);
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -100;
 }
