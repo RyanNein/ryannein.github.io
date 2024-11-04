@@ -2,9 +2,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>3D Consoles</title>
+    <meta name="description" content="3d modeled game consoles">
+
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
+
+    <!-- brother -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
 </head>
 <body>
-    <div>consoles</div>
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="spacer"></div>
+    
+    <main>
+        <p class="paragraph-h">
+            3D Game Consoles
+        </p>
+
+        <p>
+            Game console models modeled in Blender and textured in Substance Painter.
+        </p>
+
+        <p>
+            More models can be seen <a href="https://sketchfab.com/Ryan_Nein" target="_blank">here</a>.
+        </p>
+
+        <iframe 
+            title="3DS Handheld Console" 
+            frameborder="0" 
+            allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
+            xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
+            src="https://sketchfab.com/models/ccda52e911194834a9b4002c91de815f/embed"
+            class="three-d-viewer"
+            loading="lazy"> 
+        </iframe>    
+
+        <div class="work-item-margin lightbox-item">
+            <img src="../Media/3DConsoles/3ds.png" alt="Nintedo 3DS console model" loading="lazy">
+        </div>
+
+
+        <iframe 
+        title="Psp Handheld Console" 
+        frameborder="0" 
+        allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
+        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
+        src="https://sketchfab.com/models/db8c125291314639a32de8dfb66b33fa/embed"
+        class="three-d-viewer"
+        loading="lazy">
+        </iframe> 
+
+        <div class="work-item-margin lightbox-item">
+            <img src="../Media/3DConsoles/psp.png" alt="Sony PSP console model" loading="lazy">
+        </div>
+
+
+    </main>
+        
+    <!-- lightbox -->
+    <div id="lightbox">
+        <img src="" alt="Lightbox image" id="lightbox-image">
+    </div>
+
+    <button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+    <script src="../JS/darkMode.js"></script>
+    <script src="../JS/scroll.js"></script>
+    <script src="../JS/lightbox.js"></script>
+
 </body>
 </html>
