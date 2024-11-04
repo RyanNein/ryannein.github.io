@@ -1,5 +1,4 @@
 
-
 ToDo:
 - Movie Posters Update
 - Design History Ads
@@ -7,7 +6,6 @@ ToDo:
 - Matchboxes
 
 - More 3d consoles
-- add concept art to weapons
 
 - update Pico Pals screenshots
 - update Love M01 Screenshots
@@ -16,5 +14,3 @@ ToDo:
 - make music player or embed
 
 - update self portraits
-
-- pico-8 carts
