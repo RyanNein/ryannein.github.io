@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     picoPal05.startWalking();
 
     const sound = document.getElementById("pico-pal-sound");
-    document.querySelectorAll(".pico-pal").forEach(img => {
-        img.addEventListener("click", () => sound.play());
-    });
+    // document.querySelectorAll(".pico-pal").forEach(img => {
+    //     img.addEventListener("click", () => sound.play());
+    // });
 });
 
 function randomXPosition() {
