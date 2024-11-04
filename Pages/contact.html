@@ -2,21 +2,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Contact</title>
+    <meta name="description" content="Ryan Nein contact page">
+
+    <!-- brother font -->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
 </head>
 <body>
-    <form action="">
-        <label>Email</label>
-        <input type="email" name="email" placeholder="email">
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
 
-        <br>
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
 
-        <label for="">Message</label>
-        <textarea name="text" name="message" placeholder="message"></textarea>
+    <div class="spacer"></div>
 
-        <br>
+    <main>
 
-        <input type="submit" name="submit">
-    </form>
+        <h2 class="section-header">Contact</h2>
+
+        <form action="https://formspree.io/f/xnnqprpg" method="post">
+
+            <label>Name</label>
+            <input type="text" name="name" placeholder="name">
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="email">
+            
+            <label for="">Message</label>
+            <textarea name="text" name="message" placeholder="message"></textarea>
+        
+            <input type="submit" name="submit">
+        </form>
+    </main>
+
+    <!-- Scroll Up Button -->
+	<button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+	<script src="../JS/darkMode.js"></script>
+	<script src="../JS/scroll.js"></script>
 </body>
 </html>

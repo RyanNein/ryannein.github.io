@@ -2,9 +2,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Resume</title>
+    <meta name="description" content="Ryan Nein resume">
+
+    <!-- style -->
+    <link rel="stylesheet" href="../CSS/home_page.css">
+    <link rel="stylesheet" href="../CSS/work.css">
+
+    <!-- brother font-->
+    <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css">
 </head>
 <body>
-    
+    <nav>
+        <div id="nav-content">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Ryan Nein</a></li>
+                    <li><a href="../Pages/contact.html">Contact</a></li>
+                    <li><a href="../Pages/resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="dark-mode-toggle-button">
+                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        
+        <div class="spacer"></div>
+
+        <div class="seamless-work-item lightbox-item">
+            <img src="../Media/Resume/NeiningerRyan_Resume_Web.png" alt="Ryan Nein's resume">
+        </div>
+
+    </main>
+
+    <!-- lightbox -->
+    <div id="lightbox">
+        <img src="" alt="Lightbox image" id="lightbox-image">
+    </div>
+
+    <!-- Scroll Up Button -->
+    <button id="scroll-button">
+        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+    </button>
+
+    <script src="../JS/darkMode.js"></script>
+    <script src="../JS/scroll.js"></script>
+    <script src="../JS/lightbox.js"></script>
+
 </body>
 </html>
