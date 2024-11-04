@@ -1,8 +1,6 @@
 
 
 ToDo:
-- Pico pals audio
-
 - Movie Posters Update
 - Design History Ads
 - Think Green
@@ -13,8 +11,10 @@ ToDo:
 
 - update Pico Pals screenshots
 - update Love M01 Screenshots
+
 - add old music
+- make music player or embed
 
 - update self portraits
 
-- make music player or embed
+- pico-8 carts
