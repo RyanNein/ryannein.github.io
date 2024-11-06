@@ -1,16 +1,41 @@
 
 ToDo:
-- Movie Posters Update
-- Design History Ads
-- Think Green
-- Matchboxes
 
+Design:
+- Logofolio
+    - Mosh, Cycle, Royal, Ice Cream, Pico Pals, Love M01, Fish Wild,
+- Poster Design
+    - Movie Posters Update
+    - Design History Ads
+    - Think Green
+- Packaging
+    -  Matchboxes
+- UX
+    - Make Websites
+    - Make Plugins
+- Type
+    - Make a font
+
+Games:
+- HHD+
+    - Yamasen art
+    - Furniture Art
+- Pico Pals
+    - Buffs, Debuffs, status, hazard, priority
+    - Update sidebar UI
+    - update screenshots
+- Love M01
+    - Vector Update
+    - Voice Update
+    - update screenshots
+
+3D:
 - More 3d consoles
 
-- update Pico Pals screenshots
-- update Love M01 Screenshots
+Audio:
+- update old music
+- make music player JS
 
-- add old music
-- make music player or embed
-
-- update self portraits
+Illustration:
+- update old portraits
+- Self-Portrait 2025
