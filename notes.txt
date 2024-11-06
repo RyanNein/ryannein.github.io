@@ -37,5 +37,10 @@ Audio:
 - make music player JS
 
 Illustration:
-- update old portraits
+
+
+
+
+11/6
 - Self-Portrait 2025
+- Eloquent Javascript
