@@ -1,0 +1,21 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+
+.pal-list-item img {
+    width: 100%;
+    height: auto;
+}

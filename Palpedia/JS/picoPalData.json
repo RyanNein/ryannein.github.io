@@ -1,0 +1,98 @@
+{
+    "antling": {
+        "name": "Antling",
+        "description": "This is a description of Eacorn",
+        "stats": {
+            "hp": 99,
+            "attack": 99,
+            "manaAttack": 99,
+            "defense": 99,
+            "manaDefense": 99,
+            "speed": 99
+        }
+    },
+    "baba": {
+        "name": "Baba",
+        "description": "This is a description of Antling",
+        "stats": {
+            "hp": 90,
+            "attack": 90,
+            "manaAttack": 90,
+            "defense": 90,
+            "manaDefense": 90,
+            "speed": 90
+        }
+    },
+    "babish": {
+        "name": "babish",
+        "description": "This is a description of Snakey",
+        "stats": {
+            "hp": 80,
+            "attack": 80,
+            "manaAttack": 80,
+            "defense": 80,
+            "manaDefense": 80,
+            "speed": 80
+        }
+    },
+    "ballbut": {
+        "name": "Slime",
+        "description": "This is a description of Slime",
+        "stats": {
+            "hp": 70,
+            "attack": 70,
+            "manaAttack": 70,
+            "defense": 70,
+            "manaDefense": 70,
+            "speed": 70
+        }
+    },
+    "bayray": {
+        "name": "Bayray",
+        "description": "This is a description of Eacorn",
+        "stats": {
+            "hp": 99,
+            "attack": 99,
+            "manaAttack": 99,
+            "defense": 99,
+            "manaDefense": 99,
+            "speed": 99
+        }
+    },
+    "been": {
+        "name": "Antling",
+        "description": "This is a description of Antling",
+        "stats": {
+            "hp": 90,
+            "attack": 90,
+            "manaAttack": 90,
+            "defense": 90,
+            "manaDefense": 90,
+            "speed": 90
+        }
+    },
+    "bell": {
+        "name": "Snakey",
+        "description": "This is a description of Snakey",
+        "stats": {
+            "hp": 80,
+            "attack": 80,
+            "manaAttack": 80,
+            "defense": 80,
+            "manaDefense": 80,
+            "speed": 80
+        }
+    },
+    "bigator": {
+        "name": "Slime",
+        "description": "This is a description of Slime",
+        "stats": {
+            "hp": 70,
+            "attack": 70,
+            "manaAttack": 70,
+            "defense": 70,
+            "manaDefense": 70,
+            "speed": 70
+        }
+    }
+}
