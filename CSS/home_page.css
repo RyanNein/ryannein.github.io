@@ -4,6 +4,7 @@
 	--off-black: #1A1A1A;
 }
 
+
 html {
 	scroll-behavior: smooth;
 }
@@ -42,6 +43,7 @@ nav {
 	z-index: 1000;
 	box-sizing: border-box;
 	text-transform: uppercase;
+	top: 0;
 }
 
 #nav-content {

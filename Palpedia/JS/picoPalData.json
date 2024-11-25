@@ -24,7 +24,7 @@
         }
     },
     "babish": {
-        "name": "babish",
+        "name": "Babish",
         "description": "This is a description of Snakey",
         "stats": {
             "hp": 80,
@@ -60,7 +60,7 @@
         }
     },
     "been": {
-        "name": "Antling",
+        "name": "Been",
         "description": "This is a description of Antling",
         "stats": {
             "hp": 90,
@@ -72,7 +72,7 @@
         }
     },
     "bell": {
-        "name": "Snakey",
+        "name": "Bell",
         "description": "This is a description of Snakey",
         "stats": {
             "hp": 80,
@@ -84,7 +84,7 @@
         }
     },
     "bigator": {
-        "name": "Slime",
+        "name": "Bigator",
         "description": "This is a description of Slime",
         "stats": {
             "hp": 70,

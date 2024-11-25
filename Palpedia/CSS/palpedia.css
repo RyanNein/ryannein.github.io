@@ -1,7 +1,4 @@
 
-* {
-    box-sizing: border-box;
-}
 
 body {
     background-color: black;
@@ -18,4 +15,5 @@ body {
 .pal-list-item img {
     width: 100%;
     height: auto;
+    opacity: 50%;
 }
