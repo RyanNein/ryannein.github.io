@@ -20,6 +20,8 @@ body {
 	box-sizing: border-box;
 }
 
+img { vertical-align: bottom;}
+
 .dark-mode {
 	background-color: var(--off-black);
 	color: white;
