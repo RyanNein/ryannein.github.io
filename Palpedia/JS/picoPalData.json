@@ -1,98 +1,1202 @@
 {
-    "antling": {
-        "name": "Antling",
-        "description": "This is a description of Eacorn",
+    "snakey": {
+        "name": "Snakey",
+        "description": "By swallowing each other’s tails, snakeys can chain together into a mega-snake.",
         "stats": {
-            "hp": 99,
-            "attack": 99,
-            "manaAttack": 99,
-            "defense": 99,
-            "manaDefense": 99,
-            "speed": 99
+            "hp": 263,
+            "attack": 185,
+            "manaAttack": 125,
+            "defense": 125,
+            "manaDefense": 146,
+            "speed": 165
+        }
+    },
+    "chane": {
+        "name": "Chane",
+        "description": "Each orb in the link contains its own brain system.",
+        "stats": {
+            "hp": 250,
+            "attack": 136,
+            "manaAttack": 296,
+            "defense": 226,
+            "manaDefense": 176,
+            "speed": 156
+        }
+    },
+    "corab": {
+        "name": "Corab",
+        "description": "Through natural evolution Corabs have become immune to boiling.",
+        "stats": {
+            "hp": 280,
+            "attack": 328,
+            "manaAttack": 128,
+            "defense": 278,
+            "manaDefense": 128,
+            "speed": 208
+        }
+    },
+    "gimbalgram": {
+        "name": "Gimbalgram",
+        "description": "Its shadow is its real body.",
+        "stats": {
+            "hp": 304,
+            "attack": 194,
+            "manaAttack": 228,
+            "defense": 194,
+            "manaDefense": 240,
+            "speed": 174
+        }
+    },
+    "droid": {
+        "name": "Droid",
+        "description": "Droid’s ball-based movement doesn’t work on some terrains including sand.",
+        "stats": {
+            "hp": 300,
+            "attack": 90,
+            "manaAttack": 115,
+            "defense": 93,
+            "manaDefense": 110,
+            "speed": 114
+        }
+    },
+    "slime": {
+        "name": "Slime",
+        "description": "While traditionally considered an enemy mob by adventurers, this hasn’t prevented some from keeping Slimes as pets.",
+        "stats": {
+            "hp": 464,
+            "attack": 145,
+            "manaAttack": 145,
+            "defense": 95,
+            "manaDefense": 105,
+            "speed": 105
+        }
+    },
+    "whawel": {
+        "name": "Whawel",
+        "description": "Under its wings there is a large inventory for retrieving items.",
+        "stats": {
+            "hp": 361,
+            "attack": 173,
+            "manaAttack": 205,
+            "defense": 213,
+            "manaDefense": 198,
+            "speed": 155
+        }
+    },
+    "electro": {
+        "name": "Electro",
+        "description": "Electro’s long ears act as pokes for generating static electricity.",
+        "stats": {
+            "hp": 306,
+            "attack": 165,
+            "manaAttack": 295,
+            "defense": 125,
+            "manaDefense": 156,
+            "speed": 145
+        }
+    },
+    "flowey": {
+        "name": "Flowey",
+        "description": "Don’t be fooled by their innocent appearance, Flowey are wicked creatures.",
+        "stats": {
+            "hp": 272,
+            "attack": 186,
+            "manaAttack": 145,
+            "defense": 121,
+            "manaDefense": 106,
+            "speed": 140
+        }
+    },
+    "embloom": {
+        "name": "Embloom",
+        "description": "This fire flower converts chlorophyll into intense heat as it travels through its long stem, culminating in fiery blasts from its central hole.",
+        "stats": {
+            "hp": 306,
+            "attack": 121,
+            "manaAttack": 296,
+            "defense": 142,
+            "manaDefense": 162,
+            "speed": 95
+        }
+    },
+    "hylics": {
+        "name": "Hylics",
+        "description": "They have a nearly human vocal system but everything they say sounds like gibberish.",
+        "stats": {
+            "hp": 295,
+            "attack": 186,
+            "manaAttack": 295,
+            "defense": 110,
+            "manaDefense": 125,
+            "speed": 190
+        }
+    },
+    "spindew": {
+        "name": "Spindew",
+        "description": "In the nooks and crannies of caves can be seen miniature fortresses of webbing.",
+        "stats": {
+            "hp": 330,
+            "attack": 229,
+            "manaAttack": 145,
+            "defense": 168,
+            "manaDefense": 168,
+            "speed": 148
+        }
+    },
+    "monovamp": {
+        "name": "Monovamp",
+        "description": "This nocturnal predator is blind in its only one eye.",
+        "stats": {
+            "hp": 334,
+            "attack": 180,
+            "manaAttack": 221,
+            "defense": 156,
+            "manaDefense": 236,
+            "speed": 284
         }
     },
     "baba": {
         "name": "Baba",
-        "description": "This is a description of Antling",
+        "description": "Despite its gentle appearance, Baba is highly aggressive, making it an uneasy presence in any situation.",
         "stats": {
-            "hp": 90,
-            "attack": 90,
-            "manaAttack": 90,
-            "defense": 90,
-            "manaDefense": 90,
-            "speed": 90
+            "hp": 413,
+            "attack": 258,
+            "manaAttack": 166,
+            "defense": 180,
+            "manaDefense": 170,
+            "speed": 128
         }
     },
-    "babish": {
-        "name": "Babish",
-        "description": "This is a description of Snakey",
+    "blubo": {
+        "name": "Blubo",
+        "description": "Using bubbles released in linguistic patterns, Blubo can communicate with each other under the water.",
         "stats": {
-            "hp": 80,
-            "attack": 80,
-            "manaAttack": 80,
-            "defense": 80,
-            "manaDefense": 80,
-            "speed": 80
+            "hp": 401,
+            "attack": 75,
+            "manaAttack": 175,
+            "defense": 155,
+            "manaDefense": 220,
+            "speed": 211
         }
     },
-    "ballbut": {
-        "name": "Slime",
-        "description": "This is a description of Slime",
+    "box": {
+        "name": "Box",
+        "description": "Box has no inside.",
         "stats": {
-            "hp": 70,
-            "attack": 70,
-            "manaAttack": 70,
-            "defense": 70,
-            "manaDefense": 70,
-            "speed": 70
+            "hp": 394,
+            "attack": 143,
+            "manaAttack": 188,
+            "defense": 271,
+            "manaDefense": 306,
+            "speed": 106
         }
     },
-    "bayray": {
-        "name": "Bayray",
-        "description": "This is a description of Eacorn",
+    "bunbun": {
+        "name": "Bunbun",
+        "description": "Known for dozing off during battles, Bunbun’s opponents sometimes leave it alone out of pity.",
         "stats": {
-            "hp": 99,
-            "attack": 99,
-            "manaAttack": 99,
-            "defense": 99,
-            "manaDefense": 99,
-            "speed": 99
+            "hp": 384,
+            "attack": 282,
+            "manaAttack": 136,
+            "defense": 182,
+            "manaDefense": 182,
+            "speed": 236
         }
     },
-    "been": {
-        "name": "Been",
-        "description": "This is a description of Antling",
+    "breamo": {
+        "name": "Breamo",
+        "description": "Legends tell of a dragon in the family of Breamo but no such phenomena has ever been recorded.",
         "stats": {
-            "hp": 90,
-            "attack": 90,
-            "manaAttack": 90,
-            "defense": 90,
-            "manaDefense": 90,
-            "speed": 90
+            "hp": 315,
+            "attack": 94,
+            "manaAttack": 66,
+            "defense": 104,
+            "manaDefense": 126,
+            "speed": 156
         }
     },
-    "bell": {
-        "name": "Bell",
-        "description": "This is a description of Snakey",
+    "emball": {
+        "name": "Emball",
+        "description": "Ablaze for its whole lifespan, Emball’s body achieves near perpetual energy.",
         "stats": {
-            "hp": 80,
-            "attack": 80,
-            "manaAttack": 80,
-            "defense": 80,
-            "manaDefense": 80,
-            "speed": 80
+            "hp": 274,
+            "attack": 229,
+            "manaAttack": 218,
+            "defense": 106,
+            "manaDefense": 196,
+            "speed": 306
         }
     },
     "bigator": {
         "name": "Bigator",
-        "description": "This is a description of Slime",
+        "description": "If it weren’t for the giant gator mouth you might think it were human.",
         "stats": {
-            "hp": 70,
-            "attack": 70,
-            "manaAttack": 70,
-            "defense": 70,
+            "hp": 369,
+            "attack": 339,
+            "manaAttack": 128,
+            "defense": 186,
+            "manaDefense": 126,
+            "speed": 236
+        }
+    },
+    "ghost": {
+        "name": "Ghost",
+        "description": "No one knows why some Pico Pals turn into ghosts when dying and others do not.",
+        "stats": {
+            "hp": 284,
+            "attack": 144,
+            "manaAttack": 328,
+            "defense": 144,
+            "manaDefense": 154,
+            "speed": 242
+        }
+    },
+    "jaws": {
+        "name": "Jaws",
+        "description": "Its heavy enlarged jaw drags along the floor when Jaws is too tired to keep up appearances.",
+        "stats": {
+            "hp": 371,
+            "attack": 296,
+            "manaAttack": 161,
+            "defense": 155,
+            "manaDefense": 155,
+            "speed": 222
+        }
+    },
+    "raggit": {
+        "name": "Raggit",
+        "description": "Though members of the rabbit family, you wont find Raggits hopping in the wild. They prefer to walk.",
+        "stats": {
+            "hp": 310,
+            "attack": 201,
+            "manaAttack": 119,
+            "defense": 140,
+            "manaDefense": 140,
+            "speed": 236
+        }
+    },
+    "godot": {
+        "name": "Godot",
+        "description": "Its seemingly metallic exterior is actually a hard organic exoskeleton.",
+        "stats": {
+            "hp": 367,
+            "attack": 138,
+            "manaAttack": 180,
+            "defense": 233,
+            "manaDefense": 231,
+            "speed": 109
+        }
+    },
+    "sunskin": {
+        "name": "Sunskin",
+        "description": "Sunskin spins clockwise when happy and counterclockwise when upset.",
+        "stats": {
+            "hp": 298,
+            "attack": 165,
+            "manaAttack": 273,
+            "defense": 125,
+            "manaDefense": 210,
+            "speed": 190
+        }
+    },
+    "eacorn": {
+        "name": "Eacorn",
+        "description": "Eacorn burrows underground at the slightest noise, leaving only its cap above the surface.",
+        "stats": {
+            "hp": 344,
+            "attack": 284,
+            "manaAttack": 136,
+            "defense": 320,
+            "manaDefense": 196,
+            "speed": 116
+        }
+    },
+    "antling": {
+        "name": "Antling",
+        "description": "Large antlers prevent Antling from rolling around and it has no legs to walk with.",
+        "stats": {
+            "hp": 324,
+            "attack": 279,
+            "manaAttack": 94,
+            "defense": 196,
+            "manaDefense": 196,
+            "speed": 296
+        }
+    },
+    "gorbgob": {
+        "name": "Gorbgob",
+        "description": "An alternative evolutionary line to our own ape ancestry.",
+        "stats": {
+            "hp": 354,
+            "attack": 249,
+            "manaAttack": 145,
+            "defense": 196,
+            "manaDefense": 196,
+            "speed": 200
+        }
+    },
+    "ballbut": {
+        "name": "Ballbut",
+        "description": "The ball at the end of its tail doubles as a weapon and toy. It is heavy as metal.",
+        "stats": {
+            "hp": 404,
+            "attack": 218,
+            "manaAttack": 136,
+            "defense": 196,
+            "manaDefense": 150,
+            "speed": 156
+        }
+    },
+    "been": {
+        "name": "Been",
+        "description": "Unlike its more slimy cousins, Been’s body texture has been better compared to mochi.",
+        "stats": {
+            "hp": 304,
+            "attack": 128,
+            "manaAttack": 218,
+            "defense": 240,
+            "manaDefense": 240,
+            "speed": 156
+        }
+    },
+    "shelbi": {
+        "name": "Shelbi",
+        "description": "Shelbi have more in common with dinosaurs than the bugs of today.",
+        "stats": {
+            "hp": 324,
+            "attack": 258,
+            "manaAttack": 132,
+            "defense": 279,
+            "manaDefense": 206,
+            "speed": 236
+        }
+    },
+    "bell": {
+        "name": "Bell",
+        "description": "If not prevented by the mother, the father Bell will swallow their children whole.",
+        "stats": {
+            "hp": 280,
+            "attack": 178,
+            "manaAttack": 196,
+            "defense": 226,
+            "manaDefense": 196,
+            "speed": 213
+        }
+    },
+    "bord": {
+        "name": "Bord",
+        "description": "What appears at first glance to be a nose is actually a tube-like mouth perfect for gathering nectar.",
+        "stats": {
+            "hp": 344,
+            "attack": 196,
+            "manaAttack": 196,
+            "defense": 186,
+            "manaDefense": 210,
+            "speed": 236
+        }
+    },
+    "calfagrag": {
+        "name": "Calfagrag",
+        "description": "It’s horns are full of beef.",
+        "stats": {
+            "hp": 372,
+            "attack": 353,
+            "manaAttack": 156,
+            "defense": 251,
+            "manaDefense": 186,
+            "speed": 116
+        }
+    },
+    "papili": {
+        "name": "Papili",
+        "description": "Papili is not a bug but is in fact a bird.",
+        "stats": {
+            "hp": 314,
+            "attack": 186,
+            "manaAttack": 239,
+            "defense": 176,
+            "manaDefense": 176,
+            "speed": 306
+        }
+    },
+    "sass": {
+        "name": "Sass",
+        "description": "Here kitty kitty! Here kitty kitty kitty!",
+        "stats": {
+            "hp": 204,
+            "attack": 239,
+            "manaAttack": 196,
+            "defense": 156,
+            "manaDefense": 156,
+            "speed": 306
+        }
+    },
+    "caterwalk": {
+        "name": "Caterwalk",
+        "description": "Caterwalk can swing its body in circles and achieve liftoff.",
+        "stats": {
+            "hp": 304,
+            "attack": 196,
+            "manaAttack": 296,
+            "defense": 156,
+            "manaDefense": 196,
+            "speed": 196
+        }
+    },
+    "cherub": {
+        "name": "Cherub",
+        "description": "It’s canon: magic is real.",
+        "stats": {
+            "hp": 320,
+            "attack": 180,
+            "manaAttack": 254,
+            "defense": 193,
+            "manaDefense": 210,
+            "speed": 210
+        }
+    },
+    "peep": {
+        "name": "Peep",
+        "description": "Despite being a domesticated Pico Pal, Peep’s eggs are not edible due to being charged with void energy.",
+        "stats": {
+            "hp": 395,
+            "attack": 210,
+            "manaAttack": 80,
+            "defense": 165,
+            "manaDefense": 140,
+            "speed": 116
+        }
+    },
+    "clawbug": {
+        "name": "Clawbug",
+        "description": "Scientists have concocted machines for remote controlling Clawbugs and using them as weapons of war.",
+        "stats": {
+            "hp": 286,
+            "attack": 297,
+            "manaAttack": 195,
+            "defense": 195,
+            "manaDefense": 174,
+            "speed": 184
+        }
+    },
+    "royabin": {
+        "name": "Royabin",
+        "description": "High-class royalty have been known to balance Royabin on their head as a living crown.",
+        "stats": {
+            "hp": 375,
+            "attack": 203,
+            "manaAttack": 276,
+            "defense": 186,
+            "manaDefense": 196,
+            "speed": 167
+        }
+    },
+    "lahu": {
+        "name": "Lahu",
+        "description": "Lahu never stops doing its spinning dance even when predators are around.",
+        "stats": {
+            "hp": 225,
+            "attack": 205,
+            "manaAttack": 261,
+            "defense": 130,
+            "manaDefense": 190,
+            "speed": 130
+        }
+    },
+    "booploo": {
+        "name": "Booploo",
+        "description": "This flightless bat has been depicted in mythology as a satanic figure.",
+        "stats": {
+            "hp": 355,
+            "attack": 280,
+            "manaAttack": 232,
+            "defense": 130,
+            "manaDefense": 150,
+            "speed": 234
+        }
+    },
+    "diadot": {
+        "name": "Diadot",
+        "description": "Found drifting though space, its celestial diamond shell protects its organic dot interior.",
+        "stats": {
+            "hp": 500,
+            "attack": 60,
+            "manaAttack": 100,
+            "defense": 79,
+            "manaDefense": 125,
+            "speed": 81
+        }
+    },
+    "dino": {
+        "name": "Dino",
+        "description": "They have more in common with kaiju than dinosaurs.",
+        "stats": {
+            "hp": 450,
+            "attack": 356,
+            "manaAttack": 222,
+            "defense": 141,
+            "manaDefense": 121,
+            "speed": 100
+        }
+    },
+    "doggo": {
+        "name": "Doggo",
+        "description": "The natural predator of Sass.",
+        "stats": {
+            "hp": 379,
+            "attack": 291,
+            "manaAttack": 153,
+            "defense": 163,
+            "manaDefense": 140,
+            "speed": 253
+        }
+    },
+    "flatears": {
+        "name": "Flatears",
+        "description": "Its wide, flat ears let it sense danger from miles away, making it nearly impossible to catch.",
+        "stats": {
+            "hp": 399,
+            "attack": 142,
+            "manaAttack": 97,
+            "defense": 72,
+            "manaDefense": 141,
+            "speed": 300
+        }
+    },
+    "flub": {
+        "name": "Flub",
+        "description": "Flub says glub.",
+        "stats": {
+            "hp": 420,
+            "attack": 245,
+            "manaAttack": 80,
+            "defense": 80,
             "manaDefense": 70,
+            "speed": 98
+        }
+    },
+    "manifold": {
+        "name": "Manifold",
+        "description": "Its body receives no shadows because Manifold’s skin has flipped normals.",
+        "stats": {
+            "hp": 350,
+            "attack": 247,
+            "manaAttack": 113,
+            "defense": 180,
+            "manaDefense": 152,
+            "speed": 131
+        }
+    },
+    "garbon": {
+        "name": "Garbon",
+        "description": "Miners occasionally mistake the cave dwelling Garbon’s gleaming shell for precious ore, a mistake they quickly regret.",
+        "stats": {
+            "hp": 331,
+            "attack": 257,
+            "manaAttack": 68,
+            "defense": 240,
+            "manaDefense": 68,
+            "speed": 150
+        }
+    },
+    "puttibeat": {
+        "name": "Puttibeat",
+        "description": "Ironically, Puttibeat have no heart.",
+        "stats": {
+            "hp": 449,
+            "attack": 341,
+            "manaAttack": 66,
+            "defense": 152,
+            "manaDefense": 95,
+            "speed": 270
+        }
+    },
+    "hermit": {
+        "name": "Hermit",
+        "description": "Hermits compete for the best shells. Those with the best homes are weary of attack from other Hermits.",
+        "stats": {
+            "hp": 425,
+            "attack": 151,
+            "manaAttack": 51,
+            "defense": 202,
+            "manaDefense": 202,
+            "speed": 75
+        }
+    },
+    "hog": {
+        "name": "Hog",
+        "description": "In its sack-like body Hogs naturally secrete sugars over stored food preparing treats for after winter.",
+        "stats": {
+            "hp": 500,
+            "attack": 161,
+            "manaAttack": 151,
+            "defense": 125,
+            "manaDefense": 120,
+            "speed": 256
+        }
+    },
+    "kiki": {
+        "name": "Kiki",
+        "description": "It’s spikes are not actually sharp.",
+        "stats": {
+            "hp": 413,
+            "attack": 166,
+            "manaAttack": 258,
+            "defense": 188,
+            "manaDefense": 128,
+            "speed": 170
+        }
+    },
+    "grassket": {
+        "name": "Grassket",
+        "description": "Its body is made out of grass. Some have eaten Grasskets alive as salad.",
+        "stats": {
+            "hp": 450,
+            "attack": 62,
+            "manaAttack": 101,
+            "defense": 101,
+            "manaDefense": 101,
+            "speed": 130
+        }
+    },
+    "linco": {
+        "name": "Linco",
+        "description": "Hey kids, its Linco!",
+        "stats": {
+            "hp": 400,
+            "attack": 130,
+            "manaAttack": 82,
+            "defense": 82,
+            "manaDefense": 61,
+            "speed": 110
+        }
+    },
+    "brackey": {
+        "name": "Brackey",
+        "description": "Brackey’s small size makes its long neck an evolutionary mystery.",
+        "stats": {
+            "hp": 498,
+            "attack": 276,
+            "manaAttack": 100,
+            "defense": 142,
+            "manaDefense": 142,
+            "speed": 120
+        }
+    },
+    "magpole": {
+        "name": "Magpole",
+        "description": "Some Magpole owners like to decorate their pet with fridge magnets.",
+        "stats": {
+            "hp": 303,
+            "attack": 201,
+            "manaAttack":201,
+            "defense": 96,
+            "manaDefense": 120,
+            "speed": 123
+        }
+    },
+    "manique": {
+        "name": "Manique",
+        "description": "A common pet for young girls who love brushing hair.",
+        "stats": {
+            "hp": 300,
+            "attack": 151,
+            "manaAttack": 151,
+            "defense": 86,
+            "manaDefense": 86,
+            "speed": 120
+        }
+    },
+    "jego": {
+        "name": "Jego",
+        "description": "Our ancestors wore Jego as masks into war.",
+        "stats": {
+            "hp": 312,
+            "attack": 73,
+            "manaAttack": 206,
+            "defense": 91,
+            "manaDefense": 150,
+            "speed": 100
+        }
+    },
+    "mount": {
+        "name": "Mount",
+        "description": "The centerpiece of any rock garden, Mount exudes an aura of calm and balance.",
+        "stats": {
+            "hp": 300,
+            "attack": 210,
+            "manaAttack": 120,
+            "defense": 324,
+            "manaDefense": 224,
+            "speed": 121
+        }
+    },
+    "pippy": {
+        "name": "Pippy",
+        "description": "Too shy to be a mascot, Pippy hides behind other Pico Pals, quietly dodging the spotlight.",
+        "stats": {
+            "hp": 246,
+            "attack": 133,
+            "manaAttack": 101,
+            "defense": 120,
+            "manaDefense": 94,
+            "speed": 230
+        }
+    },
+    "nombug": {
+        "name": "Nombug",
+        "description": "Nombug has exactly two teeth. One on top and one on bottom.",
+        "stats": {
+            "hp": 370,
+            "attack": 144,
+            "manaAttack": 123,
+            "defense": 80,
+            "manaDefense": 104,
+            "speed": 222
+        }
+    },
+    "orbulus": {
+        "name": "Orbulus",
+        "description": "The orb Orbulus holds is a part of its body holding its most vital organs.",
+        "stats": {
+            "hp": 253,
+            "attack": 81,
+            "manaAttack": 299,
+            "defense": 81,
+            "manaDefense": 300,
+            "speed": 124
+        }
+    },
+    "parasquirm": {
+        "name": "Parasquirm",
+        "description": "In the wild, parasquirm will lose battles intentionally in order to be eaten. Then they can take control of their host from within.",
+        "stats": {
+            "hp": 313,
+            "attack": 126,
+            "manaAttack": 126,
+            "defense": 101,
+            "manaDefense": 101,
+            "speed": 296
+        }
+    },
+    "pawn": {
+        "name": "Pawn",
+        "description": "Can move forward two tiles on the first turn.",
+        "stats": {
+            "hp": 424,
+            "attack": 123,
+            "manaAttack": 110,
+            "defense": 191,
+            "manaDefense": 170,
+            "speed": 153
+        }
+    },
+    "noot": {
+        "name": "Noot",
+        "description": "Underneath its blubbery layer of skin are enormously large thighs for its body size.",
+        "stats": {
+            "hp": 256,
+            "attack": 100,
+            "manaAttack": 240,
+            "defense": 160,
+            "manaDefense": 160,
+            "speed": 200
+        }
+    },
+    "pincharp": {
+        "name": "Pincharp",
+        "description": "It’s large pinchers are Pincharp’s only option for chewing food.",
+        "stats": {
+            "hp": 420,
+            "attack": 286,
+            "manaAttack": 154,
+            "defense": 286,
+            "manaDefense": 150,
+            "speed": 163
+        }
+    },
+    "doofdoof": {
+        "name": "Doofdoof",
+        "description": "Most people say Doofdoof are abominations of nature. Others think they are cute.",
+        "stats": {
+            "hp": 336,
+            "attack": 160,
+            "manaAttack": 304,
+            "defense": 120,
+            "manaDefense": 146,
+            "speed": 147
+        }
+    },
+    "whirlrath": {
+        "name": "Whirlrath",
+        "description": "Despite hovering in the sky, Whirlrath’s body is a root and its propellers are leaves.",
+        "stats": {
+            "hp": 256,
+            "attack": 90,
+            "manaAttack": 284,
+            "defense": 160,
+            "manaDefense": 160,
+            "speed": 200
+        }
+    },
+    "Psyboi": {
+        "name": "Psyboi",
+        "description": "Dissection has yet to reveal any body part resembling a brain in appearance or function.",
+        "stats": {
+            "hp": 202,
+            "attack": 91,
+            "manaAttack": 323,
+            "defense": 103,
+            "manaDefense": 103,
+            "speed": 280
+        }
+    },
+    "sush": {
+        "name": "Sush",
+        "description": "Is it just goop?",
+        "stats": {
+            "hp": 414,
+            "attack": 130,
+            "manaAttack": 198,
+            "defense": 224,
+            "manaDefense": 312,
+            "speed": 142
+        }
+    },
+    "puffstar": {
+        "name": "Puffstar",
+        "description": "Puffstar feels pain every time it puffs its body and extends spikes out from under its skin.",
+        "stats": {
+            "hp": 256,
+            "attack": 180,
+            "manaAttack": 245,
+            "defense": 180,
+            "manaDefense": 190,
+            "speed": 212
+        }
+    },
+    "rarac": {
+        "name": "Rarac",
+        "description": "Raracs rattle their tails at night hoping to attract children with candy to steal from.",
+        "stats": {
+            "hp": 315,
+            "attack": 274,
+            "manaAttack": 150,
+            "defense": 205,
+            "manaDefense": 186,
+            "speed": 289
+        }
+    },
+    "babish": {
+        "name": "Babish",
+        "description": "Humans are like Babish, so many layers to peel and nothing at the center.",
+        "stats": {
+            "hp": 252,
+            "attack": 100,
+            "manaAttack": 198,
+            "defense": 180,
+            "manaDefense": 170,
+            "speed": 150
+        }
+    },
+    "rhibab": {
+        "name": "Rhibab",
+        "description": "Scientists like to flick Rhibab’s horn because of the funny sounds it makes.",
+        "stats": {
+            "hp": 380,
+            "attack": 324,
+            "manaAttack": 150,
+            "defense": 350,
+            "manaDefense": 160,
+            "speed": 100
+        }
+    },
+    "grubble": {
+        "name": "Grubble",
+        "description": "The rock-like exterior holds organic organs on the inside.",
+        "stats": {
+            "hp": 500,
+            "attack": 131,
+            "manaAttack": 92,
+            "defense": 310,
+            "manaDefense": 250,
+            "speed": 50
+        }
+    },
+    "bubug": {
+        "name": "Bubug",
+        "description": "This insect’s legs aren’t as strong as you might think from its only rock-like appearance.",
+        "stats": {
+            "hp": 265,
+            "attack": 193,
+            "manaAttack": 182,
+            "defense": 200,
+            "manaDefense": 200,
+            "speed": 81
+        }
+    },
+    "buddle": {
+        "name": "Buddle",
+        "description": "When buried alive the result is the growth of a rare fruit cherished as a delicacy.",
+        "stats": {
+            "hp": 253,
+            "attack": 165,
+            "manaAttack": 243,
+            "defense": 184,
+            "manaDefense": 184,
+            "speed": 205
+        }
+    },
+    "labby": {
+        "name": "Labby",
+        "description": "Labby’s fur is edible. It looks and feels just like cotton candy but tastes rather bitter.",
+        "stats": {
+            "hp": 452,
+            "attack": 180,
+            "manaAttack": 115,
+            "defense": 120,
+            "manaDefense": 120,
+            "speed": 240
+        }
+    },
+    "tao": {
+        "name": "Tao",
+        "description": "The inside of its crystalline shell is a miniature black hole generating dark energy.",
+        "stats": {
+            "hp": 310,
+            "attack": 80,
+            "manaAttack": 140,
+            "defense": 232,
+            "manaDefense": 304,
             "speed": 70
+        }
+    },
+    "snowmit": {
+        "name": "Snowmit",
+        "description": "As male Snowmits age their snow line recedes.",
+        "stats": {
+            "hp": 423,
+            "attack": 131,
+            "manaAttack": 131,
+            "defense": 224,
+            "manaDefense": 224,
+            "speed": 85
+        }
+    },
+    "blumneedle": {
+        "name": "Blumneedle",
+        "description": "Considered to be a weed by most, they are quickly exterminated from any garden.",
+        "stats": {
+            "hp": 270,
+            "attack": 294,
+            "manaAttack": 90,
+            "defense": 105,
+            "manaDefense": 120,
+            "speed": 140
+        }
+    },
+    "stingus": {
+        "name": "Stingus",
+        "description": "For recreation, Stingus have been witnessed stinging themselves to achieve an altered state of consciousness.",
+        "stats": {
+            "hp": 284,
+            "attack": 298,
+            "manaAttack": 160,
+            "defense": 156,
+            "manaDefense": 156,
+            "speed": 200
+        }
+    },
+    "mari": {
+        "name": "Mari",
+        "description": "Coastal towns are known for their deep fired Mari.",
+        "stats": {
+            "hp": 321,
+            "attack": 180,
+            "manaAttack": 300,
+            "defense": 120,
+            "manaDefense": 146,
+            "speed": 242
+        }
+    },
+    "nova": {
+        "name": "Nova",
+        "description": "An ice crystal in its core is its life force.",
+        "stats": {
+            "hp": 287,
+            "attack": 90,
+            "manaAttack": 246,
+            "defense": 180,
+            "manaDefense": 212,
+            "speed": 214
+        }
+    },
+    "bayray": {
+        "name": "Bayray",
+        "description": "Bayray’s stinger doesn’t hurt, it feels like a ghostly chill running down your spine.",
+        "stats": {
+            "hp": 246,
+            "attack": 90,
+            "manaAttack": 180,
+            "defense": 90,
+            "manaDefense": 180,
+            "speed": 213
+        }
+    },
+    "tackie": {
+        "name": "Tackie",
+        "description": "Its wings struggle to lift its heavy metal stinger, making it a clumsy flier.",
+        "stats": {
+            "hp": 194,
+            "attack": 321,
+            "manaAttack": 200,
+            "defense": 181,
+            "manaDefense": 181,
+            "speed": 322
+        }
+    },
+    "snuggus": {
+        "name": "Snuggus",
+        "description": "A dangerous menace to campers who leave food out that wild monsters can smell.",
+        "stats": {
+            "hp": 322,
+            "attack": 191,
+            "manaAttack": 191,
+            "defense": 180,
+            "manaDefense": 180,
+            "speed": 179
+        }
+    },
+    "mhango": {
+        "name": "Mhango",
+        "description": "Though its lower body is nearly useless, Mhango’s arms can lift twice its own weight.",
+        "stats": {
+            "hp": 284,
+            "attack": 284,
+            "manaAttack": 180,
+            "defense": 250,
+            "manaDefense": 250,
+            "speed": 100
+        }
+    },
+    "tubaloo": {
+        "name": "Tubaloo",
+        "description": "The various holes on its body act as speakers for shrill sounds.",
+        "stats": {
+            "hp": 320,
+            "attack": 180,
+            "manaAttack": 264,
+            "defense": 164,
+            "manaDefense": 164,
+            "speed": 200
+        }
+    },
+    "gigituk": {
+        "name": "Gigituk",
+        "description": "No one remembers why we celebrate the winter solstice by eating Gigituk.",
+        "stats": {
+            "hp": 412,
+            "attack": 200,
+            "manaAttack": 150,
+            "defense": 200,
+            "manaDefense": 200,
+            "speed": 180
+        }
+    },
+    "tootle": {
+        "name": "Tootle",
+        "description": "Although an aquatic Pico Pal, Tootles dog paddle instead of dive. Colonies of rock-like shells can be seen floating in bodies of water.",
+        "stats": {
+            "hp": 478,
+            "attack": 91,
+            "manaAttack": 240,
+            "defense": 280,
+            "manaDefense": 280,
+            "speed": 93
+        }
+    },
+    "tweezap": {
+        "name": "Tweezap",
+        "description": "Tweezap’s pinchers are an electrical plug compatible with electronics in most regions.",
+        "stats": {
+            "hp": 360,
+            "attack": 280,
+            "manaAttack": 194,
+            "defense": 181,
+            "manaDefense": 181,
+            "speed": 240
+        }
+    },
+    "twingap": {
+        "name": "Twingap",
+        "description": "Twingap heads take turns sleeping and the waking head drags the other along.",
+        "stats": {
+            "hp": 298,
+            "attack": 190,
+            "manaAttack": 284,
+            "defense": 210,
+            "manaDefense": 210,
+            "speed": 230
+        }
+    },
+    "unikorn": {
+        "name": "Unikorn",
+        "description": "With human-like sense of rhythm, Unikorns have a peculiar taste for heavy metal music.",
+        "stats": {
+            "hp": 266,
+            "attack": 134,
+            "manaAttack": 280,
+            "defense": 191,
+            "manaDefense": 191,
+            "speed": 350
+        }
+    },
+    "updo": {
+        "name": "Updo",
+        "description": "What appears to be magma that shoots from its head is output from the intestines.",
+        "stats": {
+            "hp": 400,
+            "attack": 90,
+            "manaAttack": 312,
+            "defense": 279,
+            "manaDefense": 100,
+            "speed": 122
+        }
+    },
+    "Wasso": {
+        "name": "Wasso",
+        "description": "Wasso can say their name.",
+        "stats": {
+            "hp": 310,
+            "attack": 93,
+            "manaAttack": 182,
+            "defense": 150,
+            "manaDefense": 150,
+            "speed": 154
+        }
+    },
+    "wan": {
+        "name": "Wan",
+        "description": "Wan feasts on the bones of its prey.",
+        "stats": {
+            "hp": 284,
+            "attack": 320,
+            "manaAttack": 182,
+            "defense": 182,
+            "manaDefense": 182,
+            "speed": 250
+        }
+    },
+    "incher": {
+        "name": "Incher",
+        "description": "Do to the demand from fishermen, Inchers can be bread for easy money.",
+        "stats": {
+            "hp": 300,
+            "attack": 201,
+            "manaAttack": 100,
+            "defense": 150,
+            "manaDefense": 150,
+            "speed": 150
         }
     }
 }

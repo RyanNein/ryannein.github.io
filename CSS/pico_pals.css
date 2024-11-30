@@ -1,27 +1,27 @@
 
 body {
-    background-color: black !important;
+	background-color: black !important;
+	font-family: "Concert One", serif;
 }
 
 main {
-    font-family: "Concert One", serif;
-    color: white;
+	color: white;
 }
 
 h3 {
-    font-size: 2.4em;
-    margin-top: 60px;
-    letter-spacing: 0.2em;
+	font-size: 2.4em;
+	margin-top: 60px;
+	letter-spacing: 0.2em;
 }
 
 main a {
-    color: #fd2d69 !important;
+	color: #fd2d69 !important;
 }
 
 .pico-pal {
-    position: fixed;
-    bottom: -4px;
-    left: 0;
-    height: 100px;
-    transition: transform 0.3s ease;
+	position: fixed;
+	bottom: -4px;
+	left: 0;
+	height: 100px;
+	transition: transform 0.3s ease;
 }

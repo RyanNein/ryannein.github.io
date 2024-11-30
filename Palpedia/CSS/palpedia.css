@@ -5,15 +5,174 @@ body {
     color: white;
 }
 
+main {
+    font-family: "Concert One", serif;
+    font-size: 1.6rem;
+}
+
+header {
+    color: white;
+    padding-top: 32px;
+    display: none;
+}
+
+.spacer {
+    padding-top: 60px;
+}
+
+
+/* Display */
+
+h1 {
+    text-transform: uppercase;
+}
+
+.pal-display-flex-container {
+    display: flex;
+    gap: 32px;
+}
+
+#pal-display-img {
+    width: 100%;
+    height: auto;
+}
+
+.pal-display-flex-column-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#display-call-button {
+    background: none;
+    border: none;
+    margin-top: 12px;
+}
+
+.stats-sliders-container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0;
+}
+
+
+.stat-slider {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 250px;
+    height: 18px;
+    border: 4px solid white;
+    border-radius: 9px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Progress bar fill */
+.stat-slider::-webkit-progress-bar {
+    background-color: black; 
+    border-radius: 10px;
+}
+
+.stat-slider::-webkit-progress-value {
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.stat-slider::-moz-progress-bar {
+    background-color: white; 
+    border-radius: 10px; 
+}
+
+#display-description {
+    max-width: 800px;
+    text-align: left;
+}
+
+.stat-label {
+    text-align: right;
+    margin-right: 18px;
+}
+
+.stat-amount {
+    text-align: left;
+    margin-left: 18px;
+}
+
+.stat-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* sort */
+
+#sort-label {
+    display: inline-block;
+}
+
+#sort-dropdown {
+    color: white;
+    border: none;
+    display: inline-block;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Concert One", serif;
+    font-size: 1.6rem;
+}
+
+#sort-dropdown option {
+    background-color: black;
+    border: none;
+}
+
+
+/* search */
+
+#pal-search-input {
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    background: none;
+    font-size: 1.6rem;
+}
+
+
+/* list */
+
+.list-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
 .list-wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     gap: 20px;
 }
 
+@media(max-width: 800px) {
+    .list-head {
+        flex-wrap: wrap;
+    }
+
+    .list-wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }   
+}
 
 .pal-list-item img {
     width: 100%;
     height: auto;
     opacity: 50%;
+}
+
+.pal-list-item.selected img {
+    opacity: 100%;
 }

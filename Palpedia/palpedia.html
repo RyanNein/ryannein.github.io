@@ -24,19 +24,105 @@
 </head>
 
 <body>
+	<nav>
+		<div id="nav-content">
+			<div>
+				<ul>
+					<li><a href="../index.html">Ryan Nein</a></li>
+					<li><a href="../Pages/contact.html">Contact</a></li>
+					<li><a href="../Pages/resume.html">Resume</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<button id="dark-mode-toggle-button">
+					<img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
+				</button>
+			</div>
+		</div>
+	</nav>
+
 	<main>
+		<div class="spacer"></div>
+
 		<header>
-			<h1>Palpedia</h1>
+			<h1 id="display-pal-name">PalName</h1>
 
-			<div class="search-wrapper">
-				<div class="search-wrap">
-					<!-- Todo: search icon -->
-					<!-- <img src="" alt=""> -->
-					<input type="text" placeholder="Search" id="pal-search-input">
+			<div class="pal-display-flex-container">
+				<div class="pal-display-flex-column-container">
+					<img src="Images/spr_pal_antling.png" alt="pico pal" id="display-pal-img">
+					<audio src="" id="pal-call-audio"></audio>
+					<button id="display-call-button">
+						<img src="../Media/icon_sound.png" alt="sound icon">
+					</button>
 				</div>
-		</header>
 
+				<div class="stats-sliders-container">
+					<div class="stat-container">
+						<p class="stat-label">HP</p>
+						<progress value="" max="500" class="stat-slider" id="stats-hp"></progress>
+						<p class="stat-amount" id="hp-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">STR</p>
+						<progress value="" max="500" class="stat-slider" id="stats-str"></progress>
+						<p class="stat-amount" id="strength-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">M.STR</p>
+						<progress value="" max="500" class="stat-slider" id="stats-mstr"></progress>
+						<p class="stat-amount" id="mana-strength-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">DEF</p>
+						<progress value="" max="500" class="stat-slider" id="stats-def"></progress>
+						<p class="stat-amount" id="defense-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">M.DEF</p>
+						<progress value="" max="500" class="stat-slider" id="stats-mdef"></progress>
+						<p class="stat-amount" id="mana-defense-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">SPD</p>
+						<progress value="" max="500" class="stat-slider" id="stats-spd"></progress>
+						<p class="stat-amount" id="speed-amount">999</p>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<p id="display-description">This is a description</p>
+			</div>
+
+		</header>
+		
 		<section>
+			<div class="list-head">
+				<!-- sort -->
+				<div class="sort-wrapper">
+					<p id="sort-label">Sort : </p>
+
+					<select id="sort-dropdown"> 
+						<option value="alphabetical" selected>Alphabetical</option> 
+						<option value="hp">Max HP</option> 
+						<option value="strength">STRENGTH</option> 
+						<option value="manaStrength">MANA STRENGTH</option> 
+						<option value="defense">DEFENSE</option> 
+						<option value="manaDefense">MANA DEFENSE</option> 
+						<option value="speed">SPEED</option> 
+					</select>
+				</div>
+
+				<!-- search -->
+				<div class="search-wrapper">
+					<div class="search-wrap">
+						<input type="text" placeholder="Search" id="pal-search-input">
+					</div>
+				</div>
+			</div>
+
+			
 			<div class="list-wrapper">
 				
 			</div>
