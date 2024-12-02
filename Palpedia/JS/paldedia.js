@@ -62,7 +62,7 @@ function populatePicoPals(picoPals) {
         `;
 
         div.addEventListener("click", () => {
-            header.style.display = "block";
+            header.style.display = "flex";
             populateMainDisplay(pal)
             clearSelections();
             div.classList.add("selected");

@@ -16,7 +16,7 @@ header {
     display: none;
     margin: 0 auto;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
@@ -28,7 +28,7 @@ header {
 
 @media (max-width: 800px) { 
     .stat-container { 
-        width: 50%;
+        /* width: 50%; */
     } 
 }
 
@@ -44,6 +44,14 @@ h1 {
     gap: 32px;
     align-items: center;
 }
+
+@media (max-width: 800px){
+    .pal-display-flex-container {
+        flex-direction: column;
+    }
+}
+    
+
 
 #pal-display-img {
     width: 100%;
