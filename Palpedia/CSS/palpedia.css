@@ -14,10 +14,22 @@ header {
     color: white;
     padding-top: 32px;
     display: none;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .spacer {
     padding-top: 60px;
+}
+
+
+@media (max-width: 800px) { 
+    .stat-container { 
+        width: 50%;
+    } 
 }
 
 
@@ -30,6 +42,7 @@ h1 {
 .pal-display-flex-container {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 #pal-display-img {
@@ -43,6 +56,12 @@ h1 {
     max-width: 400px;
 }
 
+.pal-display-flex-column-container > img {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
 #display-call-button {
     background: none;
     border: none;
@@ -52,7 +71,8 @@ h1 {
 .stats-sliders-container {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
+    width: 100%;
     margin: 0;
 }
 
