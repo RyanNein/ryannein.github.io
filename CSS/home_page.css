@@ -271,6 +271,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
+	margin-bottom: 20px;
 }
 
 .game-thumbnail-container div {
@@ -409,6 +410,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 20px;
+	margin-bottom: 20px;
 }
 
 .wip-thumbnail-container div {
