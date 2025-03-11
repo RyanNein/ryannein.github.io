@@ -517,7 +517,7 @@
     },
     "diadot": {
         "name": "Diadot",
-        "description": "Found drifting though space, its celestial diamond shell protects its organic dot interior.",
+        "description": "Found drifting through space, its celestial diamond shell protects its organic dot interior.",
         "stats": {
             "hp": 500,
             "attack": 60,
