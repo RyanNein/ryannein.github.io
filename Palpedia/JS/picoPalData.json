@@ -265,7 +265,7 @@
     },
     "raggit": {
         "name": "Raggit",
-        "description": "Though members of the rabbit family, you wont find Raggits hopping in the wild. They prefer to walk.",
+        "description": "Though members of the rabbit family, you won’t find Raggits hopping in the wild. They prefer to walk.",
         "stats": {
             "hp": 310,
             "attack": 201,
