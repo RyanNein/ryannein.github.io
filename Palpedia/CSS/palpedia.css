@@ -79,6 +79,8 @@ h1 {
 .stats-sliders-container {
     display: flex;
     flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 4fr 1fr; */
     align-items: center;
     width: 100%;
     margin: 0;
@@ -130,8 +132,11 @@ h1 {
 }
 
 .stat-container {
-    display: flex;
+    /* display: flex; */
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: center;
 }
 
 
