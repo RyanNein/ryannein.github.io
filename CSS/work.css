@@ -100,6 +100,17 @@ video {
     margin-bottom: 20px;
 }
 
+.poster {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.poster img {
+    width: 75%;
+    height: auto;
+}
+
 .screenshot-container {
     margin-bottom: 20px;
 }
