@@ -88,11 +88,11 @@
         "description": "Electro’s long ears act as pokes for generating static electricity.",
         "stats": {
             "hp": 306,
-            "attack": 165,
+            "attack": 148,
             "manaAttack": 295,
             "defense": 125,
             "manaDefense": 156,
-            "speed": 145
+            "speed": 346
         }
     },
     "flowey": {
@@ -147,12 +147,12 @@
         "name": "Monovamp",
         "description": "This nocturnal predator is blind in its only one eye.",
         "stats": {
-            "hp": 334,
-            "attack": 180,
+            "hp": 312,
+            "attack": 170,
             "manaAttack": 221,
-            "defense": 156,
-            "manaDefense": 236,
-            "speed": 284
+            "defense": 146,
+            "manaDefense": 136,
+            "speed": 324
         }
     },
     "baba": {
@@ -220,11 +220,11 @@
         "description": "Ablaze for its whole lifespan, Tempoon’s body achieves near perpetual energy.",
         "stats": {
             "hp": 274,
-            "attack": 229,
-            "manaAttack": 218,
+            "attack": 189,
+            "manaAttack": 229,
             "defense": 106,
             "manaDefense": 196,
-            "speed": 306
+            "speed": 376
         }
     },
     "bigator": {
@@ -412,11 +412,11 @@
         "description": "Papili is not a bug but is in fact a bird.",
         "stats": {
             "hp": 314,
-            "attack": 186,
+            "attack": 166,
             "manaAttack": 239,
             "defense": 176,
             "manaDefense": 176,
-            "speed": 306
+            "speed": 336
         }
     },
     "sass": {
@@ -524,7 +524,7 @@
             "manaAttack": 100,
             "defense": 79,
             "manaDefense": 125,
-            "speed": 81
+            "speed": 128
         }
     },
     "dino": {
@@ -555,12 +555,12 @@
         "name": "Flatears",
         "description": "Its wide, flat ears let it sense danger from miles away, making it nearly impossible to catch.",
         "stats": {
-            "hp": 399,
-            "attack": 142,
+            "hp": 349,
+            "attack": 182,
             "manaAttack": 97,
             "defense": 72,
-            "manaDefense": 141,
-            "speed": 300
+            "manaDefense": 161,
+            "speed": 379
         }
     },
     "flub": {
@@ -627,8 +627,8 @@
         "name": "Hog",
         "description": "In its sack-like body Hogs naturally secrete sugars over stored food preparing treats for after winter.",
         "stats": {
-            "hp": 500,
-            "attack": 161,
+            "hp": 462,
+            "attack": 172,
             "manaAttack": 151,
             "defense": 125,
             "manaDefense": 120,
@@ -1047,12 +1047,12 @@
         "name": "Tackie",
         "description": "Its wings struggle to lift its heavy metal stinger, making it a clumsy flier.",
         "stats": {
-            "hp": 194,
-            "attack": 321,
-            "manaAttack": 200,
-            "defense": 181,
-            "manaDefense": 181,
-            "speed": 322
+            "hp": 184,
+            "attack": 311,
+            "manaAttack": 187,
+            "defense": 161,
+            "manaDefense": 161,
+            "speed": 422
         }
     },
     "snuggus": {
@@ -1143,12 +1143,12 @@
         "name": "Unikorn",
         "description": "With human-like sense of rhythm, Unikorns have a peculiar taste for heavy metal music.",
         "stats": {
-            "hp": 266,
-            "attack": 134,
+            "hp": 233,
+            "attack": 124,
             "manaAttack": 280,
             "defense": 191,
             "manaDefense": 191,
-            "speed": 350
+            "speed": 450
         }
     },
     "updo": {
