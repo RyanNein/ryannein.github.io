@@ -56,8 +56,11 @@ let h = document.querySelector("h2");
 // 	[10, 11, 12]
 // 	] ));
 
-function loopingATriangle01() {
-	for (let i = 0; i < 7; i++) {
+hashTriangle01();
+hashTriangle02();
+
+function hashTriangle01() {
+	for (let i = 0; i < 6; i++) {
 		let hashString = "";
 		while (hashString.length < i + 1) {
 			hashString += "#";
@@ -66,9 +69,18 @@ function loopingATriangle01() {
 	}
 }
 
-function loopingATriangle02() {
-	for (let hashString = "#"; hashString.length < 8; hashString += "#")
+function hashTriangle02() {
+	for (let hashString = "#"; hashString.length < 7; hashString += "#")
 		console.log(hashString);
+}
+
+
+class Sign {
+  constructor(signifier, signified, referent) {
+    this.signifier = signifier;
+    this.signified = signified;
+    this.referent = referent;
+  }
 }
 
 function fizzBuzz() {

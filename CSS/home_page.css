@@ -14,7 +14,8 @@ body {
 	color: black;
 	margin: 0;
 	padding: 0;
-	font-family: "brother-1816", sans-serif;
+	/* font-family: "brother-1816", sans-serif; */
+	font-family: "josefin sans", sans-serif;
 	font-weight: 500;
 	text-align: center;
 	box-sizing: border-box;
@@ -52,6 +53,7 @@ nav {
 	width: 80%;
 	max-width: 1660px;
 	margin: 0 auto;
+	padding: 0.6em 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -83,7 +85,7 @@ nav ul {
 nav ul li a {
 	color: white !important;
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }    
 
 @media (max-width: 480px) {
@@ -118,6 +120,7 @@ main {
 	color: #333;
 	text-decoration: none;
 	margin:  2em 0 10px 0;
+	font-size: 1.4em;
 }    
 
 #sub-nav a {
@@ -149,8 +152,7 @@ main {
 
 .section-header {
 	font-size: 3em;
-	font-weight: 800;
-	font-weight: 900;
+	font-weight: 700;
 	font-style: italic;
 	margin: 80px 0 32px 0;
 	text-transform: uppercase;
