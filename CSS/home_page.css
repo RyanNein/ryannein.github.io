@@ -464,11 +464,21 @@ form label {
 form input {
 	display: block;
 	margin: 0 auto 20px auto;
+	font-size: 1.2em;
+	width: 32em;
+	padding: 0.4em;
 }
 
 form input, form textarea {
     margin-bottom: 10px;
-    /* font-family: brother; */
+	font-family: "josefin sans", sans-serif;
+	font-size: 1.2em;
+}
+
+#contact-message-textarea {
+	width: 32em;
+	height: 16em;
+	padding: 0.4em;
 }
 
 form input[type="submit"]{
@@ -478,6 +488,7 @@ form input[type="submit"]{
     color: #CCC;
     padding: 12px 24px;
 	margin-top: 20px;
+	width: 24%;
     border-radius: 100px;
 	box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.4);
 }
