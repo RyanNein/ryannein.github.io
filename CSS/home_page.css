@@ -28,6 +28,10 @@ img { vertical-align: bottom;}
 	color: white;
 }
 
+.dark-mode header {
+	color: white;
+}
+
 header {
 	width: 100%;
 	color: black;
@@ -98,6 +102,72 @@ nav ul li a:hover {
 	opacity: 0.5;
 }    
 
+.project-toggle {
+    position: relative;
+    display: inline-flex;
+    border: 2px solid var(--off-black);
+    border-radius: 999px;
+    padding: 4px;
+    background: transparent;
+}
+
+/* The sliding highlight */
+.project-toggle::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    background: var(--off-black);
+    border-radius: 999px;
+    transition: transform 0.25s ease;
+    z-index: 0;
+}
+
+/* Move highlight when Featured is active */
+.project-toggle.featured::before {
+    transform: translateX(100%);
+}
+
+.project-toggle button {
+    position: relative;
+    z-index: 1;
+    border: none;
+    background: transparent;
+    color: var(--off-black);
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+/* Active text color */
+.project-toggle button.active {
+    color: white;
+}
+
+/* When dark mode is active on the homepage */
+.dark-mode .project-toggle {
+    border-color: white;
+}
+
+.dark-mode .project-toggle::before {
+    background: white;
+}
+
+.dark-mode .project-toggle button {
+    color: white;
+}
+
+.dark-mode .project-toggle button.active {
+    color: black;
+}
+
+
+
 main {
 	width: 80%;
 	max-width: 1660px;
@@ -148,6 +218,39 @@ main {
 	margin-top: 20px;
 }    
 
+
+.about-me {
+	display: block;
+
+	width: 45%;
+	max-width: 996px;
+	margin: 46px auto 60px auto;
+
+	font-size: 1.2em;
+	text-align: left;
+	line-height: 1.4em;
+}
+
+.about-me strong {
+	width: 75%;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.section-description {
+	display: block;
+
+	width: 56%;
+	
+	max-width: 830px;
+
+	margin: auto;
+
+	font-size: 1.2em;
+	text-align: left;
+	line-height: 1.4em;
+}
 
 
 .section-header {
@@ -238,15 +341,19 @@ main {
 
 .philosophy-thumbnail-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
 	gap: 20px;
-
+	/* margin: 0 auto; */
+	grid-template-columns: repeat(3, auto);
+	width: 100%;
+	justify-content: center;
 }
 
 .philosophy-thumbnail-container div {
 	/* flex: 1 1 45%; */
 	display: flex;
 	justify-content: center;
+	max-width: 540px;
 }    
 
 .philosophy-thumbnail-image {
@@ -299,30 +406,21 @@ main {
 
 .game-thumbnail-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	gap: 20px;
 	margin-bottom: 20px;
 }
 
 .game-thumbnail-container div {
+	flex: 1 1 100%;
 	display: flex;
-	justify-content: center;
 }
 
 .game-thumbnail-image {
-	width: 100%;
-	max-width: 540px;
-	height: auto;
-	margin: auto;
+	max-width: 100%;
 	border-radius: 22px;
 	box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
-}    
-
-@media (max-width: 800px) {
-	.game-thumbnail-container {
-		grid-template-columns: 1fr;
-	}
-}
+}  
 
 .pico-8-thumbnail-container {
 	margin-top: 20px;
@@ -434,26 +532,6 @@ main {
 }
 
 
-/* -- WIP -- */
-
-.wip-thumbnail-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 20px;
-	margin-bottom: 20px;
-}
-
-.wip-thumbnail-container div {
-	flex: 1 1 100%;
-	display: flex;
-}
-
-.wip-thumbnail-image {
-	max-width: 100%;
-	border-radius: 22px;
-	box-shadow: -8px 8px 14px rgba(0, 0, 0, 0.4);
-}
-
 
 /* contact */
 form label {
@@ -491,4 +569,9 @@ form input[type="submit"]{
 	width: 24%;
     border-radius: 100px;
 	box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.download-link {
+	margin-bottom: 20px;
+	font-size: 1.4em;
 }
