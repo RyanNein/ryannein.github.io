@@ -85,7 +85,7 @@
     },
     "electro": {
         "name": "Electro",
-        "description": "Electro’s long ears act as pokes for generating static electricity.",
+        "description": "Electro’s long ears act as poles for generating static electricity.",
         "stats": {
             "hp": 306,
             "attack": 148,
