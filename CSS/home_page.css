@@ -576,3 +576,32 @@ form input[type="submit"]{
 	margin-bottom: 20px;
 	font-size: 1.4em;
 }
+
+/* Blog */
+
+.blog-entry-container {
+	margin: 0 auto;
+	text-align: left;
+	max-width: 900px;
+}
+
+.blog-entry {
+	margin-bottom: 42px;
+}
+
+.blog-entry-title {
+	font-size: 1.4em;
+	font-weight: 800;
+	margin-bottom: 500px;
+}
+
+.blog-tags {
+	font-style: italic;
+	font-weight: 200;
+	margin-top: 4px;
+}
+
+.blog-date {
+	font-weight: 600;
+	margin-top: 4px;
+}

@@ -1,0 +1,51 @@
+
+
+main {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    
+}
+
+.blog {
+    margin: 0 auto;
+}
+
+.youtube-video-head {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+.essay {
+    max-width: 840px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.essay-title {
+    text-align: center;
+}
+
+.stanza {
+    margin-bottom: 1.5em;
+}
+
+.download-link {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Util */
+
+.spacer {
+    padding-top: 100px;
+}
+
+.spacer-small {
+    padding-top: 40px;
+}

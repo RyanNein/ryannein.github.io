@@ -28,7 +28,6 @@ if (isDarkMode)
 else
     disableDarkMode();
 
-
 function enableDarkMode() {
     document.body.classList.add("dark-mode");
     
@@ -36,18 +35,15 @@ function enableDarkMode() {
         a.style.color = "#ccc";
     });
 
+    buttonImage.src = "/Media/Homepage/icon_sun.png";
+
     if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
         subNav.classList.add("sub-nav-dark");
 
-        buttonImage.src = "Media/Homepage/icon_sun.png";
-
-        logoImg.src = "Media/Homepage/logo_white.png";
+        logoImg.src = "/Media/Homepage/logo_white.png";
         
         for (let title of thumbnailTitles) 
             title.style.color = "white";
-    }
-    else {
-        buttonImage.src = "../Media/Homepage/icon_sun.png";
     }
 
     localStorage.setItem("isDarkMode", "true");
@@ -61,20 +57,68 @@ function disableDarkMode() {
         a.style.color = "#333";
     });
 
+    buttonImage.src = "/Media/Homepage/icon_moon.png";
+
     if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
         subNav.classList.remove("sub-nav-dark");
         
-        logoImg.src = "Media/Homepage/logo_black.png"
-        
-        buttonImage.src = "Media/Homepage/icon_moon.png";
+        logoImg.src = "/Media/Homepage/logo_black.png";
 
         for (let title of thumbnailTitles) 
             title.style.color = "black";
     }
-    else {
-        buttonImage.src = "../Media/Homepage/icon_moon.png";
-    }
 
-    localStorage.setItem("isDarkMode", null);
+    localStorage.setItem("isDarkMode", "false");
     isDarkMode = false;
 }
+
+
+// function enableDarkMode() {
+//     document.body.classList.add("dark-mode");
+    
+//     aLinks.forEach(a => {
+//         a.style.color = "#ccc";
+//     });
+
+//     if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
+//         subNav.classList.add("sub-nav-dark");
+
+//         buttonImage.src = "Media/Homepage/icon_sun.png";
+
+//         logoImg.src = "Media/Homepage/logo_white.png";
+        
+//         for (let title of thumbnailTitles) 
+//             title.style.color = "white";
+//     }
+//     else {
+//         buttonImage.src = "../Media/Homepage/icon_sun.png";
+//     }
+
+//     localStorage.setItem("isDarkMode", "true");
+//     isDarkMode = true;
+// }
+
+// function disableDarkMode() {
+//     document.body.classList.remove("dark-mode");
+    
+//     aLinks.forEach(a => {
+//         a.style.color = "#333";
+//     });
+
+//     if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
+//         subNav.classList.remove("sub-nav-dark");
+        
+//         logoImg.src = "Media/Homepage/logo_black.png"
+        
+//         buttonImage.src = "Media/Homepage/icon_moon.png";
+
+//         for (let title of thumbnailTitles) 
+//             title.style.color = "black";
+//     }
+//     else {
+//         buttonImage.src = "../Media/Homepage/icon_moon.png";
+//     }
+
+//     localStorage.setItem("isDarkMode", null);
+//     isDarkMode = false;
+// }
