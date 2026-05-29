@@ -1,5 +1,0 @@
-
-ToDo:
-- Self-Portrait 2025
-- make music player JS
-- Eloquent Javascript
