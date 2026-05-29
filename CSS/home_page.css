@@ -554,7 +554,7 @@ form input, form textarea {
 	font-size: 1.2em;
 }
 
-#contact-message-textarea {
+.contact-message-textarea {
 	width: 32em;
 	height: 16em;
 	padding: 0.4em;

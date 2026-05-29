@@ -1,0 +1,35 @@
+
+h3 {
+    font-size: 1.6em;
+    font-style: normal;
+    margin-top: 64px;
+}
+
+audio {
+    width: 100%;
+}
+
+.music-sample {
+    max-width: 820px;
+    margin: 0 auto 32px auto;
+}
+
+.music-label {
+    margin-bottom: 12px;
+    font-size: 1.2em;
+}
+
+#hire-form-ul {
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+.form-section {
+    max-width: 820px;
+    margin: auto;
+}
+
+#more-music {
+    font-size: 1.4em;
+}
