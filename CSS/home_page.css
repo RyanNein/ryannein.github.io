@@ -587,12 +587,14 @@ form input[type="submit"]{
 
 .blog-entry {
 	margin-bottom: 42px;
+	max-width: 600px;
 }
 
 .blog-entry-title {
 	font-size: 1.4em;
 	font-weight: 800;
 	margin-bottom: 500px;
+	line-height: 1.5em;
 }
 
 .blog-tags {
