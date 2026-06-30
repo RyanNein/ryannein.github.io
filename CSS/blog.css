@@ -28,6 +28,8 @@ main {
 
 .essay-title {
     text-align: center;
+    margin-bottom: 42px;
+    line-height: 1.4em;
 }
 
 .stanza {

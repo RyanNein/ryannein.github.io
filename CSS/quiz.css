@@ -1,0 +1,288 @@
+
+.spacer {
+    padding-top: 100px;
+}
+
+.spacer-small {
+    padding-top: 40px;
+}
+
+#test-container {
+    max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+:root {
+  --accent: #4aa3ff;
+}
+
+
+
+.instructions {
+  max-width: 600px;
+  text-align: left;
+  margin: 32px auto;
+}
+
+.instructions h2 {
+  text-align: center;
+}
+
+
+.question-block {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.question-block p {
+  margin-bottom: 10px;
+  font-weight: bold;
+    text-align: center;
+}
+
+.question-block {
+  margin-bottom: 30px;
+}
+
+.options-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.option {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.option:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.option.selected {
+  border-color: var(--accent);
+  background: rgba(100, 200, 255, 0.15);
+}
+
+
+.heatmap-wrapper {
+  background: white;              /* pure white canvas */
+  padding: 12px;                  /* breathing room */
+  border-radius: 10px;            /* soft edges */
+  border: 2px solid #ccc;         /* neutral border */
+  width: max-content;             /* shrink to fit */
+  margin: 20px auto;              /* center it */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* subtle depth */
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 6px;
+  margin: 20px auto;
+  width: max-content; /* THIS centers it properly */
+}
+
+
+.cell {
+  background: var(--accent);
+  opacity: 0;
+  border-radius: 6px;
+  transition: opacity 0.3s;
+}
+
+.tint-key {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px auto 25px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.tint-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tint-box {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.tint-homo {
+  background-color: rgba(255, 120, 120, 0.35); /* soft red */
+}
+
+.tint-hetero {
+  background-color: rgba(120, 160, 255, 0.35); /* soft blue */
+}
+
+
+/* --- AXIS CONTAINER --- */
+.so-axis {
+  margin: 35px 0;
+  text-align: center;
+  font-family: inherit;
+}
+
+/* --- SUBJECT / OBJECT LINE (now constrained) --- */
+.so-line {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 600px;      /* ← matches labels + definitions */
+  margin: 0 auto 10px;   /* ← centers it */
+  padding: 0 10px;       /* small breathing room */
+}
+
+.so-left, .so-right {
+  font-size: 12px;
+  opacity: 0.75;
+  width: 80px;           /* ← keeps them aligned and centered */
+  text-align: center;
+}
+
+/* --- AXIS BAR (arrows) --- */
+.so-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;               /* ← fills the space between SUBJECT and OBJECT */
+  margin: 0 12px;
+  position: relative;
+  max-width: 180px;
+}
+
+/* arrow lines */
+.so-arrow-left,
+.so-arrow-right {
+  flex: 1;
+  height: 2px;
+  background: currentColor;
+  position: relative;
+  opacity: 0.7;
+}
+
+/* arrowheads */
+.so-arrow-left::before,
+.so-arrow-right::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  transform: translateY(-50%);
+}
+
+.so-arrow-left::before {
+  left: 0;
+  border-right-color: currentColor;
+}
+
+.so-arrow-right::before {
+  right: 0;
+  border-left-color: currentColor;
+}
+
+.so-center-dot {
+  margin: 0 12px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* --- LABELS (centered over definitions) --- */
+.so-labels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.axis-left-label,
+.axis-right-label {
+  width: 50%;
+  text-align: center;
+}
+
+/* --- DEFINITIONS --- */
+.so-definitions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 13px;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.so-definition-left,
+.so-definition-right {
+  width: 50%;
+  text-align: center;
+}
+
+/* --- HIGHLIGHT --- */
+.so-highlight {
+  background: var(--accent);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+
+
+.results-diagram {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Dark mode inversion */
+.dark-mode .results-diagram {
+  filter: invert(1);
+}
+
+
+#personality-overview {
+  text-align: left;
+  max-width: 640px;
+  margin: auto;
+}
+
+
+.honesty-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #828282;
+  border-radius: 8px;
+}
+
+.honesty-confirmation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+#send-honest-results-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+

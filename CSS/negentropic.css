@@ -8,7 +8,11 @@ main {
     color: white;
 }
 
-h3 {
+h1 {
+    max-width: 1660px;
+}
+
+h2 {
     font-size: 2.4em;
     margin-top: 60px;
     letter-spacing: 0.2em;
@@ -16,4 +20,8 @@ h3 {
 
 main a {
     color: #da6c69 !important;
+}
+
+#dark-mode-toggle-button {
+    display: none;
 }

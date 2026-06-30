@@ -16,53 +16,86 @@
     
     <link rel="icon" href="../tab_icon.png" type="image/x-icon">
 
-    <title>Resume</title>
-    <meta name="description" content="Ryan Nein resume">
+    <link rel="canonical" href="https://ryannein.com/Pages/resume.html">
+
+
+    <title>Ryan Nein — Resume</title>
+    <meta name="description" content="The official resume of Ryan Nein, featuring experience in philosophy, game development, design, writing, and creative work. Download the PDF or view the full resume online.">
+
+
+    <meta property="og:title" content="Ryan Nein — Resume">
+    <meta property="og:description" content="View or download the official resume of Ryan Nein, covering philosophy, game development, design, and creative work.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ryannein.com/Pages/resume.html">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ryannein.com/"
+        },
+        {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resume",
+        "item": "https://ryannein.com/Pages/resume.html"
+        }
+    ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Ryan Nein Resume",
+    "description": "The official resume of Ryan Nein, covering experience in philosophy, game development, design, writing, and creative work.",
+    "url": "https://ryannein.com/Pages/resume.html",
+    "creator": {
+        "@type": "Person",
+        "name": "Ryan Nein",
+        "url": "https://ryannein.com/"
+    },
+    "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://ryannein.com/Media/Resume/NeinRyan_Resume_Web.pdf",
+        "encodingFormat": "application/pdf"
+    }
+    }
+    </script>
+
 
     <!-- style -->
-    <link rel="stylesheet" href="../CSS/home_page.css">
-    <link rel="stylesheet" href="../CSS/work.css">
+    <link rel="stylesheet" href="/CSS/home_page.css">
+    <link rel="stylesheet" href="/CSS/work.css">
+    <link rel="stylesheet" href="/CSS//directory.css">
 
-    <!-- brother font-->
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/tdq0pgq.css"> -->
-
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <nav>
-        <div id="nav-content">
-            <div>
-                <ul>
-                    <li><a href="../index.html">Ryan Nein</a></li>
-                    <li><a href="../Pages/blog_home.html">Blog</a></li>
-                    <li><a href="https://payhip.com/RyanNein" target="_blank">Store</a></li>
-                    <li><a href="../Pages/services.html">Hire</a></li>
-                    <li><a href="../Pages/contact.html">Contact</a></li>
-                    <li><a href="../Pages/resume.html">Resume</a></li>
-                    <li><a href="../Palpedia/picopedia.html">Picopedia</a></li>
-					<li><a href="https://linktr.ee/Ryan_Nein" target="_blank"">Links</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <button id="dark-mode-toggle-button">
-                    <img src="../Media/Homepage/icon_moon.png" alt="Dark mode icon">
-                </button>
-            </div>
-        </div>
-    </nav>
+    <div id="nav-placeholder"></div>
 
     <div class="spacer"></div>
 
     <main>
         
-        <h2 class="section-header">Resume</h2>
+        <h1>Resume</h1>
+
+        <div class="directory-intro-description">
+            <p>This is my official resume, outlining my experience across philosophy, game development, design, writing, and creative work.</p>
+        </div>
 
         <div class="download-link">
-            <a href="../Media/Resume/NeiningerRyan_Resume_Web.pdf" download="NeinRyan_Resume">Download PDF</a>
+            <a href="../Media/Resume/NeinRyan_Resume_Web.pdf" download="NeinRyan_Resume">Download PDF</a>
         </div>
 
         <div class="seamless-work-item lightbox-item">
@@ -78,12 +111,13 @@
 
     <!-- Scroll Up Button -->
     <button id="scroll-button">
-        <img src="../Media/Homepage/icon_up_arrow.png" alt="Up arrow">
+        <img src="/Media/Homepage/icon_up_arrow.png" alt="Up arrow">
     </button>
 
-    <script src="../JS/darkMode.js"></script>
-    <script src="../JS/scroll.js"></script>
-    <script src="../JS/lightbox.js"></script>
+    <script src="/JS/nav.js"></script>
+    <script src="/JS/darkMode.js"></script>
+    <script src="/JS/scroll.js"></script>
+    <script src="/JS/lightbox.js"></script>
 
 </body>
 </html>

@@ -8,7 +8,12 @@ main {
     color: white;
 }
 
-h3 {
+h1 {
+    max-width: 1660px;
+}
+
+
+h2 {
     font-size: 2.4em;
     margin-top: 60px;
     letter-spacing: 0.2em;
@@ -16,4 +21,21 @@ h3 {
 
 main a {
     color: #eacf3d !important;
+}
+
+.ww-controls {
+    max-width: 800px;
+    margin: auto;
+}
+
+.whale-well-features {
+    margin: 32px auto;
+}
+
+.whale-well-features p {
+    margin: auto;
+}
+
+#dark-mode-toggle-button {
+    display: none;
 }

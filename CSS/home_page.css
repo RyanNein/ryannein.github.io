@@ -14,7 +14,6 @@ body {
 	color: black;
 	margin: 0;
 	padding: 0;
-	/* font-family: "brother-1816", sans-serif; */
 	font-family: "josefin sans", sans-serif;
 	font-weight: 500;
 	text-align: center;
@@ -577,33 +576,3 @@ form input[type="submit"]{
 	font-size: 1.4em;
 }
 
-/* Blog */
-
-.blog-entry-container {
-	margin: 0 auto;
-	text-align: left;
-	max-width: 900px;
-}
-
-.blog-entry {
-	margin-bottom: 42px;
-	max-width: 600px;
-}
-
-.blog-entry-title {
-	font-size: 1.4em;
-	font-weight: 800;
-	margin-bottom: 500px;
-	line-height: 1.5em;
-}
-
-.blog-tags {
-	font-style: italic;
-	font-weight: 300;
-	margin-top: 4px;
-}
-
-.blog-date {
-	font-weight: 600;
-	margin-top: 4px;
-}

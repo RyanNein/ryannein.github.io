@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PEYQF128MY"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-PEYQF128MY');
+	</script>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="canonical" href="https://ryannein.com/Pages/Fun/Picopedia/picopedia.html">
+
+
+	<title>Picopedia — Encyclopedia for Pico Pals</title>
+	<meta name="description" content="Picopedia is the official creature encyclopedia for Pico Pals. Browse pals, view stats, hear calls, and explore descriptions in this interactive wiki.">
+
+	<meta property="og:title" content="Picopedia — Encyclopedia for Pico Pals">
+	<meta property="og:description" content="Explore Pico Pals through an interactive encyclopedia featuring stats, calls, and descriptions.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ryannein.com/Pages/Fun/Picopedia/picopedia.html">
+
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{
+		"@type": "ListItem",
+		"position": 1,
+		"name": "Home",
+		"item": "https://ryannein.com/"
+		},
+		{
+		"@type": "ListItem",
+		"position": 2,
+		"name": "Fun",
+		"item": "https://ryannein.com/Pages/fun_home.html"
+		},
+		{
+		"@type": "ListItem",
+		"position": 3,
+		"name": "Picopedia",
+		"item": "https://ryannein.com/Pages/Fun/Picopedia/picopedia.html"
+		}
+	]
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "CreativeWork",
+	"name": "Picopedia",
+	"description": "An interactive creature encyclopedia for the Pico Pals game, featuring stats, calls, descriptions, and searchable entries.",
+	"url": "https://ryannein.com/Pages/Fun/Picopedia/picopedia.html",
+	"creator": {
+		"@type": "Person",
+		"name": "Ryan Nein",
+		"url": "https://ryannein.com/"
+	},
+	"about": {
+		"@type": "VideoGame",
+		"name": "Pico Pals",
+		"url": "https://ryannein.com/Pages/Portfolio/Games/pico_pals.html"
+	}
+	}
+	</script>
+
+
+
+	<link rel="icon" href="../tab_icon.png" type="image/x-icon">
+
+	<!-- Concert One Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+	<!-- Josefin Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="/CSS/home_page.css">
+	<link rel="stylesheet" href="picopedia.css">
+
+	<!-- Scripts -->
+	 <script src="/JS/nav.js" defer></script>
+	<script src="JS/picopedia.js" defer></script>
+</head>
+
+<body>
+	<div id="nav-placeholder"></div>
+
+	<main>
+		<div class="spacer"></div>
+
+		<header>
+			<h1 id="display-pal-name">PalName</h1>
+
+			<div class="pal-display-flex-container">
+				<div class="pal-display-flex-column-container">
+					<img src="Images/spr_pal_antling.png" alt="pico pal" id="display-pal-img">
+					<audio src="" id="pal-call-audio"></audio>
+					
+					<button id="display-call-button">
+						<img src="/Media/icon_sound.png" alt="sound icon">
+					</button>
+				</div>
+
+				<div class="stats-sliders-container">
+					<div class="stat-container">
+						<p class="stat-label">HP</p>
+						<progress value="" max="500" class="stat-slider" id="stats-hp"></progress>
+						<p class="stat-amount" id="hp-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">STR</p>
+						<progress value="" max="500" class="stat-slider" id="stats-str"></progress>
+						<p class="stat-amount" id="strength-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">M.STR</p>
+						<progress value="" max="500" class="stat-slider" id="stats-mstr"></progress>
+						<p class="stat-amount" id="mana-strength-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">DEF</p>
+						<progress value="" max="500" class="stat-slider" id="stats-def"></progress>
+						<p class="stat-amount" id="defense-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">M.DEF</p>
+						<progress value="" max="500" class="stat-slider" id="stats-mdef"></progress>
+						<p class="stat-amount" id="mana-defense-amount">999</p>
+					</div>
+					<div class="stat-container">
+						<p class="stat-label">SPD</p>
+						<progress value="" max="500" class="stat-slider" id="stats-spd"></progress>
+						<p class="stat-amount" id="speed-amount">999</p>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<p id="display-description">This is a description</p>
+			</div>
+
+		</header>
+		
+		<section>
+			<div class="list-head">
+				<!-- sort -->
+				<div class="sort-wrapper">
+					<p id="sort-label">Sort : </p>
+
+					<select id="sort-dropdown"> 
+						<option value="alphabetical" selected>Alphabetical</option> 
+						<option value="hp">Max HP</option> 
+						<option value="strength">STRENGTH</option> 
+						<option value="manaStrength">MANA STRENGTH</option> 
+						<option value="defense">DEFENSE</option> 
+						<option value="manaDefense">MANA DEFENSE</option> 
+						<option value="speed">SPEED</option> 
+					</select>
+				</div>
+
+				<!-- search -->
+				<div class="search-wrapper">
+					<div class="search-wrap">
+						<input type="text" placeholder="Search" id="pal-search-input">
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="list-wrapper">
+				
+			</div>
+			<div id="pal-not-found">
+				<p>Pico Pall not found</p>
+			</div>
+		</section>
+		</div>
+	</main>
+</body>
+
+</html>
