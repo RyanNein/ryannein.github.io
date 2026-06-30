@@ -1,0 +1,25 @@
+
+
+
+h1 {
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+ul {
+    text-align: left;
+}
+
+.game-features {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    max-width: 820px;
+    margin: auto;
+}
+
+.game-features-label {
+    text-align: left;
+    font-weight: bold;
+}
