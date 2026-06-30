@@ -48,8 +48,6 @@ header div {
 
 
 
-
-
 /* NAV */
 
 nav {
@@ -322,6 +320,7 @@ main {
 	margin:  2em 0 10px 0;
 	font-size: 1.4em;
 }    
+
 
 #sub-nav a {
 	text-decoration: none;
