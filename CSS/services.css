@@ -38,3 +38,14 @@ audio {
 #more-music {
     font-size: 1.4em;
 }
+
+.design-sample {
+    margin: auto;
+    width: 1080px;
+    max-width: 1080px;
+    margin-bottom: 32px;4
+}
+
+.design-sample img {
+    /* max-width: 1080px; */
+}
