@@ -370,18 +370,28 @@ main {
 
 .section-description {
 	display: block;
-
+	
 	width: 56%;
 	
 	max-width: 830px;
-
+	
 	margin: auto;
-
+	
 	font-size: 1.2em;
 	text-align: left;
 	line-height: 1.4em;
 }
 
+
+@media (max-width: 1200px) {
+	.about-me {
+		width: 80%;
+	}
+
+	.section-description {
+		width: 80%;
+	}
+}
 
 .section-header {
 	font-size: 3em;
