@@ -25,3 +25,11 @@ main a {
 #dark-mode-toggle-button {
     display: none;
 }
+
+.highlight-color {
+    color: #da6c69;
+}
+
+.text-center {
+    text-align: center;
+}
